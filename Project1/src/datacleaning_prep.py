@@ -29,8 +29,9 @@ def extract_collection_name(value):
     return None
 
 # Break JSON list into string
+
 #check this 
-def break_data_points(df, init_column='genres', new_column='genre_names'):
+def break_data_points(df, init_column, new_column):
     df[new_column] = df[init_column].apply(lambda x: ' | '.join(d['name'] for d in x) if isinstance(x, list) else None)
     return df
 
@@ -59,25 +60,23 @@ def add_cast_crew_director(df):
 # Value counts
 
 def get_value_counts(df, column):
-    if column in df.columns:
-        return df[column].value_counts()
-    else:
-        raise ValueError(f"Column '{column}' not found in DataFrame.")
-
+    return df[column].value_counts()
+    
 def normalize_anomalies(genre_string):
     genres = [g.strip() for g in genre_string.split('|')]
-    sorted_genres = sorted(genres)
-    return ' | '.join(sorted_genres)
+    return ' | '.join(sorted(genres))
 
 # Convert to numeric and datetime
 def convert_to_numeric(df, column):
     df[column] = pd.to_numeric(df[column], errors='coerce')
-    return df
+    return df[column].info()
 
-#check this
+
+
 def convert_to_datetime(df, column):
     df[column] = pd.to_datetime(df[column])
-    return df
+    return df[column].info()
+
 
 # Check for zeroes and missing
 
@@ -94,7 +93,7 @@ def check_for_nodata(df, column):
     return df[df[column] == 0]
 
 # Handle released movies
-def released_movie(df, status_column='status'):
+def released_movie(df, status_column):
     df_new = df[df[status_column] == 'Released']
     df.drop(columns=[status_column], inplace=True)
     return df_new
