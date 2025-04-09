@@ -8,8 +8,6 @@ load_dotenv()
 API_KEY = os.getenv('API_KEY')
 
 
-
-
 # API_KEY = "c55dbe93df0a88e0f3757ca2282ebef2"
 api_url = "https://api.themoviedb.org/3/movie/"
 
