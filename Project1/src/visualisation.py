@@ -5,7 +5,7 @@ import pandas as pd
 
 def revenue_vs_budget(df):
     plt.figure(figsize=(10, 6))
-    sns.scatterplot(data=df, x='budget_musd', y='revenue_musd', hue='is_franchise')
+    sns.scatterplot(data=df, x='budget_musd', y='revenue_musd')
     plt.title('Revenue vs. Budget')
     plt.xlabel('Budget (USD millions)')
     plt.ylabel('Revenue (USD millions)')
@@ -13,7 +13,7 @@ def revenue_vs_budget(df):
 
 def roi_distribution_by_genre(df):
     plt.figure(figsize=(30, 15))
-    sns.lineplot(x = 'genre_names', y = 'roi', data = reordered_df)
+    sns.lineplot(x = 'genre_names', y = 'roi', data = df)
     plt.xticks(rotation=90)
     plt.show()
     plt.tight_layout()
@@ -29,9 +29,9 @@ def popularity_vs_rating(df):
     plt.close()
 
 def yearly_box_office_performance(df):
-    reordered_df['release_year'] = reordered_df['release_date'].dt.year
+    df['release_year'] = df['release_date'].dt.year
     plt.figure(figsize=(15, 7)) # To resize the plot
-    yearly_df = reordered_df.groupby('release_year').agg({
+    yearly_df = df.groupby('release_year').agg({
         'revenue_musd': 'sum'
     }).reset_index()
     sns.pointplot(x='release_year', y='revenue_musd', data=yearly_df)

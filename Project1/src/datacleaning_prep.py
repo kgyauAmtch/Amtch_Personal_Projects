@@ -108,3 +108,15 @@ def reorder_and_save(df, path):
     reordered_df.reset_index(drop=True, inplace=True)
     reordered_df.to_csv(path, index=False)
     return reordered_df.head()
+
+# def franchisedf_save(df, path):
+#     franchise_summary = Franchise_df.agg(
+#     movie_count=('id', 'count'),
+#     total_budget=('budget_musd', 'sum'),
+#     mean_budget=('budget_musd', 'mean'),
+#     total_revenue=('revenue_musd', 'sum'),
+#     mean_revenue=('revenue_musd', 'mean'),
+#     mean_rating=('vote_average', 'mean')).reset_index()
+#     franchise_summary.reset_index(drop=True, inplace=True)
+#     franchise_summary.to_csv(path, index=False)
+#     return franchise_summary.head()
