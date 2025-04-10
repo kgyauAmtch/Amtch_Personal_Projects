@@ -39,9 +39,9 @@ The dataset includes information such as:
 
 ### 2. Feature Engineering
 
-- Extracting release year and decade
-- Calculating ROI and profitability
-- Creating binary indicators for franchises and genres
+- Extracting release year 
+- Calculating ROI 
+- Creating indicators for franchises and genres
 - Identifying top actors, directors, and producers
 
 ### 3. KPI Evaluation
@@ -56,7 +56,8 @@ The dataset includes information such as:
 
 - Mean Revenue
 - Median ROI
-- Mean Budget Raised o Mean Popularity
+- Mean Budget Raised
+- Mean Popularity
 - Mean Rating
 
 ### 5. Advanced Filtering and Insights
@@ -76,15 +77,7 @@ The dataset includes information such as:
 - Jupyter Notebooks
 - Parquet for optimized data storage
 
----
 
-## Insights and Conclusions
-
-- **Franchises** tend to have higher average budgets and revenue, but not always better ROI.
-- **Genres** like Action and Adventure consistently outperform others in revenue.
-- **Top production companies** dominate high-grossing films, but some independents show strong ROI.
-- **Seasonal trends** indicate higher success rates in summer and holiday seasons.
-- **Star power and proven directors** positively correlate with box office success.
 
 ---
 
