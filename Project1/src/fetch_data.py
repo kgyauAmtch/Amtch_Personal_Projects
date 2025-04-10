@@ -8,8 +8,6 @@ load_dotenv()
 API_KEY = os.getenv('API_KEY')
 
 
-
-
 # API_KEY = "c55dbe93df0a88e0f3757ca2282ebef2"
 api_url = "https://api.themoviedb.org/3/movie/"
 
@@ -47,6 +45,8 @@ print(df.head())
 
 
 # Optionally save to file
-timestamp= datetime.now().strftime('%d-%m-%Y_%H-%M-%S')
-df.to_csv(f"/Users/gyauk/github/Project1_movie_analysis/Project1/data/raw/movies_{timestamp}.csv", index=False)
+# timestamp= datetime.now().strftime('%d-%m-%Y_%H-%M-%S')
+# df.to_csv(f"/Users/gyauk/github/Project1_movie_analysis/Project1/data/raw/movies_{timestamp}.csv", index=False)
+df.to_csv(f"/Users/gyauk/github/Project1_movie_analysis/Project1/data/raw/movies.csv", index=False)
+
 
