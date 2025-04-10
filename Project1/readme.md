@@ -54,16 +54,19 @@ The dataset includes information such as:
 
 ### 4. Franchise vs. Standalone Comparison
 
-- Average revenue and ROI for franchise vs. non-franchise films
-- Budget distribution differences
-- Hit rate and volume trends across years
+- Mean Revenue
+- Median ROI
+- Mean Budget Raised o Mean Popularity
+- Mean Rating
 
 ### 5. Advanced Filtering and Insights
 
-- High-revenue outliers and blockbuster clusters
-- Company-wise performance benchmarking
-- Genre popularity shifts over time
-- Impact of director and actor combinations
+- Revenue vs. Budget Trends
+- ROI Distribution by Genre
+- Popularity vs. Rating
+- Yearly Trends in Box Office Performance
+- Comparison of Franchise vs. Standalone Success
+
 
 ---
 
@@ -84,10 +87,4 @@ The dataset includes information such as:
 - **Star power and proven directors** positively correlate with box office success.
 
 ---
-
-## Future Work
-
-- Incorporate streaming data for modern release analysis
-- Sentiment analysis of reviews and social media
-- Time series forecasting for box office trends
 

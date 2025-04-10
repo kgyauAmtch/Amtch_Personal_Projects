@@ -1,11 +1,11 @@
 collection_name,movie_count,total_budget,mean_budget,total_revenue,mean_revenue,mean_rating
-Avatar Collection,1,237.0,237.0,2923.71,2923.71,7.587
+Avatar Collection,1,237.0,237.0,2923.71,2923.71,7.588
 Black Panther Collection,1,200.0,200.0,1349.93,1349.93,7.373
-Frozen Collection,2,300.0,150.0,2727.9,1363.95,7.248
-Harry Potter Collection,1,125.0,125.0,1341.51,1341.51,8.087
-Jurassic Park Collection,2,320.0,160.0,2982.01,1491.005,6.615
+Frozen Collection,2,300.0,150.0,2727.9,1363.95,7.2485
+Harry Potter Collection,1,125.0,125.0,1341.51,1341.51,8.1
+Jurassic Park Collection,2,320.0,160.0,2982.01,1491.005,6.6155
 Star Wars Collection,2,445.0,222.5,3400.92,1700.46,7.021
-The Avengers Collection,4,1241.0,310.25,7776.08,1944.02,7.86975
+The Avengers Collection,4,1241.0,310.25,7776.08,1944.02,7.87
 The Fast and the Furious Collection,1,190.0,190.0,1515.4,1515.4,7.2
 The Incredibles Collection,1,200.0,200.0,1242.81,1242.81,7.454
-The Lion King (Reboot) Collection,1,260.0,260.0,1662.02,1662.02,7.11
+The Lion King (Reboot) Collection,1,260.0,260.0,1662.02,1662.02,7.109
