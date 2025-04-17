@@ -254,3 +254,35 @@ END //
 DELIMITER ;
 
 -- CALL get_customer_spending_tier()
+
+
+-- Apllying bulk discount to customers
+DELIMITER //
+
+CREATE TRIGGER apply_bulk_discount
+BEFORE INSERT ON order_details
+FOR EACH ROW
+BEGIN
+    DECLARE discount_rate DECIMAL(5,2) DEFAULT 0;
+    DECLARE unit_price DECIMAL(10,2);
+
+    -- Get product price first
+    SELECT price INTO unit_price FROM products WHERE product_id = NEW.product_id;
+
+    -- Determine discount based on quantity
+    IF NEW.order_quantity >= 50 THEN
+        SET discount_rate = 0.15;
+    ELSEIF NEW.order_quantity >= 20 THEN
+        SET discount_rate = 0.10;
+    ELSEIF NEW.order_quantity >= 10 THEN
+        SET discount_rate = 0.05;
+    ELSE
+        SET discount_rate = 0.00;
+    END IF;
+
+    -- Apply discount
+    SET NEW.order_price = NEW.order_quantity * unit_price * (1 - discount_rate);
+END //
+
+DELIMITER ;
+
