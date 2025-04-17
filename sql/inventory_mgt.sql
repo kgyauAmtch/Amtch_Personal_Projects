@@ -173,3 +173,31 @@ END //
 DELIMITER ;
 
 -- CALL get_inventory_history();
+
+
+-- procedure to view particular customer order summary 
+DELIMITER //
+
+CREATE PROCEDURE get_customer_order_summary(IN p_customer_id INT)
+BEGIN
+    SELECT 
+        o.order_id,
+        o.order_date,
+        o.total_amount,
+        SUM(od.order_quantity) AS total_items
+    FROM 
+        orders o
+    JOIN 
+        order_details od ON o.order_id = od.order_id
+    WHERE 
+        o.customer_id = p_customer_id 
+    GROUP BY 
+        o.order_id, o.order_date, o.total_amount
+    ORDER BY 
+        o.order_date DESC;
+END //
+
+DELIMITER ;
+
+CALL get_customer_order_summary(2);
+
