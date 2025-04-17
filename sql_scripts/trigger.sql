@@ -1,6 +1,7 @@
+
 -- Track inventory changes (Trigger here because it runs everytime a stock level changes)
 DELIMITER //
-
+DROP TRIGGER IF EXISTS after_stock_update;
 CREATE TRIGGER after_stock_update
 AFTER UPDATE ON products
 FOR EACH ROW
@@ -31,9 +32,10 @@ UPDATE products SET stock_quantity = stock_quantity + 5 WHERE product_id = 3;
 
 
 
--- Apllying bulk discount to customers
-DELIMITER //
+-- Applying bulk discount to customers
 
+DELIMITER //
+DROP TRIGGER If EXISTS apply_bulk_discount;
 CREATE TRIGGER apply_bulk_discount
 BEFORE INSERT ON order_details
 FOR EACH ROW
@@ -69,6 +71,7 @@ DELIMITER ;
 
 DELIMITER //
 
+DROP TRIGGER If EXISTS after_order_detail_insert;
 CREATE TRIGGER after_order_detail_insert
 AFTER INSERT ON order_details
 FOR EACH ROW
@@ -89,7 +92,7 @@ DELIMITER ;
 -- a Trigger that calculates total order amount
 
 DELIMITER //
-
+DROP TRIGGER If EXISTS after_order_detail_insert;
 CREATE TRIGGER update_order_total
 AFTER INSERT ON order_details
 FOR EACH ROW

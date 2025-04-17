@@ -1,3 +1,5 @@
+-- Drop tables if they exist
+DROP TABLE IF EXISTS inventory_logs, order_details, orders, products, customers;
 
 /** Customers table  **/
 
