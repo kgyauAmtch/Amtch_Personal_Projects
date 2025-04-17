@@ -286,3 +286,41 @@ END //
 
 DELIMITER ;
 
+
+-- query to test trigger
+-- INSERT INTO order_details (order_id, product_id, order_quantity) VALUES (1, 2, 25);
+
+
+-- Implement stock replenishment
+DELIMITER //
+
+CREATE PROCEDURE replenish_stock(
+    IN p_product_id INT,
+    IN p_quantity_added INT
+)
+BEGIN
+    DECLARE current_stock INT;
+
+    -- Get current stock
+    SELECT stock_quantity INTO current_stock
+    FROM products
+    WHERE product_id = p_product_id;
+
+    -- If below reorder point (5), replenish
+    IF current_stock < 5 THEN
+        -- Update product stock
+        UPDATE products
+        SET stock_quantity = stock_quantity + p_quantity_added
+        WHERE product_id = p_product_id;
+
+        -- Log the replenishment
+        INSERT INTO inventory_logs (product_id, stock_change, reason)
+        VALUES (p_product_id, p_quantity_added, 'Replenishment');
+    END IF;
+END //
+
+DELIMITER ;
+-- DROP PROCEDURE IF EXISTS replenish_stock;
+
+CALL replenish_stock(4,20);
+
