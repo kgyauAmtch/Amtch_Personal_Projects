@@ -148,3 +148,28 @@ DELIMITER ;
 -- eg query to simulate a sale and replenishment to test the trigger
 UPDATE products SET stock_quantity = stock_quantity - 5 WHERE product_id = 3;
 UPDATE products SET stock_quantity = stock_quantity + 5 WHERE product_id = 3;
+
+
+
+-- retrieve a history of inventory changes for auditing
+DELIMITER //
+
+CREATE PROCEDURE get_inventory_history()
+BEGIN
+    SELECT 
+        il.inventory_id,
+        p.product_name,
+        il.stock_change,
+        il.log_date,
+        il.reason
+    FROM 
+        inventory_logs il
+    JOIN 
+        products p ON il.product_id = p.product_id
+    ORDER BY 
+        il.log_date DESC;
+END //
+
+DELIMITER ;
+
+-- CALL get_inventory_history();
