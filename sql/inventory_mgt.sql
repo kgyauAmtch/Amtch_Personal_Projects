@@ -322,5 +322,27 @@ END //
 DELIMITER ;
 -- DROP PROCEDURE IF EXISTS replenish_stock;
 
-CALL replenish_stock(4,20);
+-- CALL replenish_stock(4,20);
+
+
+-- Automation 
+-- A trigger that update stocks levels after an order is placed  
+
+DELIMITER //
+
+CREATE TRIGGER after_order_detail_insert
+AFTER INSERT ON order_details
+FOR EACH ROW
+BEGIN
+    -- Reduce product stock
+    UPDATE products
+    SET stock_quantity = stock_quantity - NEW.order_quantity
+    WHERE product_id = NEW.product_id;
+
+    -- Log the stock change
+    INSERT INTO inventory_logs (product_id, stock_change, reason)
+    VALUES (NEW.product_id, -NEW.order_quantity, 'Order placed');
+END //
+
+DELIMITER ;
 
