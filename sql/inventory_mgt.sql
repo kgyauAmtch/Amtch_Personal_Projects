@@ -65,3 +65,54 @@ INSERT INTO products (product_name, category, price, stock_quantity) VALUES ('Wi
 INSERT INTO products (product_name, category, price, stock_quantity) VALUES ('YSL', 'Perfume', 299.99, 20);
 INSERT INTO products (product_name, category, price, stock_quantity) VALUES ('M4 competition', 'Car', 45.00, 4);
 INSERT INTO products (product_name, category, price, stock_quantity) VALUES ('Lamp', 'Furniture', 30.50, 15);
+
+DELIMITER //
+
+CREATE PROCEDURE process_order (
+    IN p_customer_id INT,
+    IN p_product_id INT,
+    IN p_order_quantity INT
+)
+BEGIN
+    DECLARE v_order_id INT;
+    DECLARE v_price DECIMAL(10,2);
+    DECLARE v_total_amount DECIMAL(10,2);
+
+    -- Get the product price
+    SELECT price INTO v_price
+    FROM products
+    WHERE product_id = p_product_id;
+
+    -- Calculate total
+    SET v_total_amount = v_price * p_order_quantity;
+
+    -- Create the order
+    INSERT INTO orders (customer_id, total_amount)
+    VALUES (p_customer_id,  v_total_amount);
+
+    SET v_order_id = LAST_INSERT_ID();
+
+    -- Step 4: Add to order_details
+    INSERT INTO order_details (
+        order_id, product_id, order_quantity, order_price
+    ) VALUES (
+        v_order_id, p_product_id, p_order_quantity, v_price
+    );
+
+    -- Step 5: Deduct from stock
+    UPDATE products
+    SET stock_quantity = stock_quantity - p_order_quantity
+    WHERE product_id = p_product_id;
+
+    -- Step 6: Log the change in inventory
+    INSERT INTO inventory_logs (
+        product_id, stock_change, reason
+    ) VALUES (
+        p_product_id, -p_order_quantity, 'SALE'
+    );
+END //
+
+DELIMITER ;
+
+-- CALL process_order(2, 2, 2);
+-- CALL process_order(1, 3, 4);
