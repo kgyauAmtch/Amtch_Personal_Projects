@@ -226,3 +226,31 @@ DELIMITER ;
 
 -- CALL get_products_to_replenish();
 
+-- spending tier of customers
+DELIMITER //
+
+CREATE PROCEDURE get_customer_spending_tier()
+BEGIN
+    SELECT 
+        c.customer_id,
+        c.first_name AS customer_name,
+        c.email,
+        SUM(o.total_amount) AS total_spent,
+        CASE 
+            WHEN SUM(o.total_amount) >= 1000 THEN 'Gold'
+            WHEN SUM(o.total_amount) >= 500 THEN 'Silver'
+            ELSE 'Bronze'
+        END AS spending_tier
+    FROM 
+        customers c
+    JOIN 
+        orders o ON c.customer_id = o.customer_id
+    GROUP BY 
+        c.customer_id, c.first_name, c.email
+    ORDER BY 
+        total_spent DESC;
+END //
+
+DELIMITER ;
+
+-- CALL get_customer_spending_tier()
