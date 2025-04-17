@@ -116,3 +116,35 @@ DELIMITER ;
 
 -- CALL process_order(2, 2, 2);
 -- CALL process_order(1, 3, 4);
+
+
+-- Track inventory changes (Trigger here because it runs everytime a stock level changes)
+DELIMITER //
+
+CREATE TRIGGER after_stock_update
+AFTER UPDATE ON products
+FOR EACH ROW
+BEGIN
+    DECLARE v_change INT;
+    DECLARE v_reason VARCHAR(50);
+
+    SET v_change = NEW.stock_quantity - OLD.stock_quantity;
+
+    IF v_change != 0 THEN
+        -- Determine the reason based on the direction of stock change
+        IF v_change > 0 THEN
+            SET v_reason = 'REPLENISHMENT';
+        ELSE
+            SET v_reason = 'SALE';
+        END IF;
+
+        -- Insert into inventory log with the cahnges
+        INSERT INTO inventory_logs (product_id,stock_change,reason) VALUES (NEW.product_id,v_change,v_reason);
+    END IF;
+END //
+
+DELIMITER ;
+
+-- eg query to simulate a sale and replenishment to test the trigger
+UPDATE products SET stock_quantity = stock_quantity - 5 WHERE product_id = 3;
+UPDATE products SET stock_quantity = stock_quantity + 5 WHERE product_id = 3;
