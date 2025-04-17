@@ -201,3 +201,28 @@ DELIMITER ;
 
 CALL get_customer_order_summary(2);
 
+
+-- Replenishment flagging
+
+DELIMITER //
+
+CREATE PROCEDURE get_products_to_replenish()
+BEGIN
+    SELECT 
+        product_id,
+        product_name,
+        stock_quantity,
+        5 AS reorder_point,
+        'NEEDS REPLENISHMENT' AS situation 
+    FROM 
+        products
+    WHERE 
+        stock_quantity < 5
+    ORDER BY 
+        stock_quantity ASC;
+END //
+
+DELIMITER ;
+
+-- CALL get_products_to_replenish();
+
