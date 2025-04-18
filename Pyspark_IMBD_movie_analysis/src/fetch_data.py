@@ -47,6 +47,6 @@ print(df.head())
 # Optionally save to file
 # timestamp= datetime.now().strftime('%d-%m-%Y_%H-%M-%S')
 # df.to_csv(f"/Users/gyauk/github/Project1_movie_analysis/Project1/data/raw/movies_{timestamp}.csv", index=False)
-df.to_csv(f"/Users/gyauk/github/Project1_movie_analysis/Project1/data/raw/movies.csv", index=False)
+df.to_csv(f"/Users/gyauk/github/labs/IMBD_movie_analysis/Project1/data/raw", index=False)
 
 
