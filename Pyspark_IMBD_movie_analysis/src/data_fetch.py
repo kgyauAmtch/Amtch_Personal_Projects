@@ -4,11 +4,16 @@ from dotenv import load_dotenv
 from datetime import datetime
 from pyspark.sql import SparkSession
 
+os.environ['PYSPARK_PYTHON'] = 'python3.9'
+os.environ['PYSPARK_DRIVER_PYTHON'] = 'python3.9'
 # Load environment variables
 load_dotenv()
 API_KEY = os.getenv('API_KEY')
 
 # API details
+
+API_KEY = "c55dbe93df0a88e0f3757ca2282ebef2"
+
 api_url = "https://api.themoviedb.org/3/movie/"
 movie_ids = [0, 299534, 19995, 140607, 299536, 597, 135397,
              420818, 24428, 168259, 99861, 284054, 12445,
@@ -51,8 +56,8 @@ movies_df = spark.read.json(rdd)
 movies_df.show(5, truncate=False)
 
 # Save to CSV
-timestamp = datetime.now().strftime('%d-%m-%Y_%H-%M-%S')
-output_path = f"/Users/gyauk/github/labs/Pyspark_IMBD_movie_analysis/data/raw/movies_{timestamp}.csv"
+# timestamp = datetime.now().strftime('%d-%m-%Y_%H-%M-%S')
+output_path = f"/Users/gyauk/github/labs/Pyspark_IMBD_movie_analysis/data/raw/movies.csv"
 
 movies_df.write.option("header", True).csv(output_path)
 
