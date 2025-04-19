@@ -1,4 +1,4 @@
-import pandas as pd
+
 
 def add_is_franchise_column(df):
     df['is_franchise'] = df['collection_name'].notna()

@@ -3,11 +3,13 @@ import ast
 
 # Load data
 def load_data(file_path):
-    return pd.read_csv(file_path).head()
+    df = pd.read_csv(file_path)
+    return df
 
 # Drop irrelevant columns
-def drop_columns(columns):
-    return df.drop(columns=['adult', 'imdb_id', 'original_title', 'video', 'homepage'])
+def drop_columns(df, columns_drop):
+    df= df.drop(columns= columns_drop)
+    return df.head()
 
 # Evaluate JSON-like columns
 def evaluate_json_column(column):
@@ -16,11 +18,16 @@ def evaluate_json_column(column):
     except (ValueError, SyntaxError):
         return {}
     
-## check this
-def parse_json_columns(df, json_columns):
+def convert_json_columns(df, json_columns):
     for col in json_columns:
         df[col] = df[col].apply(evaluate_json_column)
     return df
+
+# ## check this
+# def parse_json_columns(df, json_columns):
+#     for col in json_columns:
+#         df[col] = df[col].apply(evaluate_json_column)
+#     return df.head()
 
 # Extract collection name
 def extract_collection_name(value):
@@ -33,7 +40,7 @@ def extract_collection_name(value):
 #check this 
 def break_data_points(df, init_column, new_column):
     df[new_column] = df[init_column].apply(lambda x: ' | '.join(d['name'] for d in x) if isinstance(x, list) else None)
-    return df
+    return df[new_column]
 
 # Cast and crew processing
 def extract_cast_names(credits):
@@ -55,7 +62,7 @@ def add_cast_crew_director(df):
     df['director'] = df['credits'].apply(extract_director)
     df['cast_size'] = df['credits'].apply(lambda x: len(x.get('cast', [])))
     df['crew_size'] = df['credits'].apply(lambda x: len(x.get('crew', [])))
-    return df
+    return df.head()
 
 # Value counts
 
@@ -93,17 +100,18 @@ def check_for_nodata(df, column):
     return df[df[column] == 0]
 
 # Handle released movies
-def released_movie(df, status_column):
-    df_new = df[df[status_column] == 'Released']
-    df.drop(columns=[status_column], inplace=True)
-    return df_new
+def released_movies(df):
+    df = df[df['status'] == 'Released'].drop(columns=['status'])
+    return df.head()
+
+
 
 # Finalize and save cleaned data
-def reorder_and_save(df, path):
-    new_order = ['id', 'title', 'tagline', 'release_date', 'genres', 'belongs_to_collection',
-                 'original_language', 'budget_musd', 'revenue_musd', 'production_companies',
-                 'production_countries', 'vote_count', 'vote_average', 'popularity', 'runtime',
-                 'overview', 'spoken_languages', 'poster_path', 'cast', 'cast_size', 'director', 'crew_size']
+def reorder_and_save(df,new_order,path):
+    # new_order = ['id', 'title', 'tagline', 'release_date', 'genres', 'belongs_to_collection',
+    #              'original_language', 'budget_musd', 'revenue_musd', 'production_companies',
+    #              'production_countries', 'vote_count', 'vote_average', 'popularity', 'runtime',
+    #              'overview', 'spoken_languages', 'poster_path', 'cast', 'cast_size', 'director', 'crew_size']
     reordered_df = df[new_order + [col for col in df.columns if col not in new_order]]
     reordered_df.reset_index(drop=True, inplace=True)
     reordered_df.to_csv(path, index=False)

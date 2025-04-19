@@ -9,7 +9,7 @@ def revenue_vs_budget(df):
     plt.title('Revenue vs. Budget')
     plt.xlabel('Budget (USD millions)')
     plt.ylabel('Revenue (USD millions)')
-    plt.close()
+    plt.show()
 
 def roi_distribution_by_genre(df):
     plt.figure(figsize=(30, 15))
@@ -56,5 +56,5 @@ def franchise_vs_standalone_success(df):
     plt.ylabel('Average / Median Values')
     plt.xticks(rotation=0)
     plt.tight_layout()
-    plt.savefig('images/franchise_vs_standalone_success.png')
+    plt.show()
     plt.close()
