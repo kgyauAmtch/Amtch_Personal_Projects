@@ -77,7 +77,7 @@ def generate_director_df(df):
     mean_rating=('vote_average', 'mean')
     ).reset_index()
     
-    director_summary.to_csv(f'/Users/gyauk/github/labs/IMBD_movie_analysis/Project1/data/processed/franchise_directorr.csv', index=False)
+    director_summary.to_csv(f'/Users/gyauk/github/labs/IMBD_movie_analysis/Project1/data/processed/franchise_director.csv', index=False)
     return director_summary
 
 
