@@ -4,6 +4,10 @@ import os
 from dotenv import load_dotenv
 from datetime import datetime 
 
+
+
+
+
 load_dotenv()
 API_KEY = os.getenv('API_KEY')
 
@@ -27,9 +31,8 @@ def fetch_movie(movie_id):
         print(url)
         return None
    
-# print(url)
     
-# Fetch all movies
+# Fetch all movies in list
 movies_data = []
 for movie_id in movie_ids:
     data = fetch_movie(movie_id)
@@ -47,6 +50,6 @@ print(df.head())
 # Optionally save to file
 # timestamp= datetime.now().strftime('%d-%m-%Y_%H-%M-%S')
 # df.to_csv(f"/Users/gyauk/github/Project1_movie_analysis/Project1/data/raw/movies_{timestamp}.csv", index=False)
-df.to_csv(f"/Users/gyauk/github/labs/IMBD_movie_analysis/Project1/data/raw", index=False)
+df.to_csv(f"/Users/gyauk/github/labs/Pyspark_IMBD_movie_analysis/data/raw", index=False)
 
 
