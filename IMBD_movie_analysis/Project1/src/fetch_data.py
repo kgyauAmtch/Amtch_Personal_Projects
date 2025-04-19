@@ -15,6 +15,23 @@ movie_ids = [0, 299534, 19995, 140607, 299536, 597, 135397,
             420818, 24428, 168259, 99861, 284054, 12445,
             181808, 330457, 351286, 109445, 321612, 260513]
 
+
+
+# # Define fallback/default movie structure
+# def fallback_movie(movie_id):
+#     return {
+#         "id": movie_id,
+#         "title": "N/A",
+#         "release_date": "N/A",
+#         "revenue": 0,
+#         "runtime": 0,
+#         "status": "N/A",
+#         "genres": [],
+#         "credits": {},
+#         "directors": {}
+#     }
+
+
 def fetch_movie(movie_id):
     url = f"{api_url}{movie_id}?api_key={API_KEY}&append_to_response=credits,directors"
     response = requests.get(url)
