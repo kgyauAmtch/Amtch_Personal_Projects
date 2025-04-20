@@ -15,21 +15,6 @@ movie_ids = [0, 299534, 19995, 140607, 299536, 597, 135397,
             181808, 330457, 351286, 109445, 321612, 260513]
 
 
-
-# def fetch_movie(movie_id):
-#     try:
-#        url = f"{api_url}{movie_id}?api_key={API_KEY}&append_to_response=credits,directors"
-#        response = requests.get(url)
-#     except:
-#       if response.status_code == 200:
-#         return response.json()
-    
-#       else:
-#         print(f"Movie ID {movie_id} not found.")
-#         print(url)
-#         return None
-
-
 def fetch_movie(movie_id):
     url = f"{api_url}{movie_id}?api_key={API_KEY}&append_to_response=credits,directors"
     try:
@@ -60,6 +45,6 @@ print(df.head())
 # Optionally save to file
 # timestamp= datetime.now().strftime('%d-%m-%Y_%H-%M-%S')
 # df.to_csv(f"/Users/gyauk/github/Project1_movie_analysis/Project1/data/raw/movies_{timestamp}.csv", index=False)
-df.to_csv(f"/Users/gyauk/github/labs/IMBD_movie_analysis/Project1/data/raw/movies.csv", index=False)
+df.to_csv(f"/Users/gyauk/github/labs/Pyspark_IMBD_movie_analysis/data/raw/movies.csv", index=False)
 
 
