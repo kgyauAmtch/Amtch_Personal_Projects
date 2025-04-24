@@ -66,31 +66,36 @@ def generate_franchise_summary(df):
 
 def sort_mean_budget(df,collection_name,column):
     sorted_row=df.orderBy(F.col(column).desc()).first()
-    return print(f"With a mean budget of {sorted_row[column]:,.2f}, '{sorted_row[collection_name]}' is the most successful movie franchise.")
-  
+    print(f"With a mean budget of {sorted_row[column]:,.2f}, '{sorted_row[collection_name]}' is the most successful movie franchise.")
+    return df
 
 def sort_total_budget(df,collection_name,column):
     sorted_row=df.orderBy(F.col(column).desc()).first()
-    return print(f"With a  total budget of  {sorted_row[column]:,.2f}, '{sorted_row[collection_name]}' is the most sucessful movie franschise")
+    print(f"With a  total budget of  {sorted_row[column]:,.2f}, '{sorted_row[collection_name]}' is the most sucessful movie franschise")
+    return df
 
 
 def sort_total_revenue(df,collection_name,column):
   sorted_row=df.orderBy(F.col(column).desc()).first()
-  return print(f"With a total revenue of  {sorted_row[column]:,.2f}, '{sorted_row[collection_name]}' is the most sucessful movie franschise")
+  print(f"With a total revenue of  {sorted_row[column]:,.2f}, '{sorted_row[collection_name]}' is the most sucessful movie franschise")
+  return df
 
 def sort_mean_revenue(df,collection_name,column):
     sorted_row=df.orderBy(F.col(column).desc()).first()
-    return print(f"With a mean revenue of  {sorted_row[column]:,.2f}, '{sorted_row[collection_name]}' is the most sucessful movie franschise")
+    print(f"With a mean revenue of  {sorted_row[column]:,.2f}, '{sorted_row[collection_name]}' is the most sucessful movie franschise")
+    return df
 
 def sort_mean_rating(df,collection_name,column):
     sorted_row=df.orderBy(F.col(column).desc()).first()
-    return print(f"With a mean rating of  {sorted_row[column]:,.2f}, '{sorted_row[collection_name]}' is the most sucessful movie franschise")
+    print(f"With a mean rating of  {sorted_row[column]:,.2f}, '{sorted_row[collection_name]}' is the most sucessful movie franschise")
+    return df
 
 
 
 def sort_most_successful_movieinfranchise(df,column, sort_column):
     sorted_row=df.orderBy(F.col(column).desc()).first()
-    return print(f"{sorted_row[column]} is the most successful movie franchise with  {sorted_row[sort_column]} movie franchises.")
+    print(f"{sorted_row[column]} is the most successful movie franchise with  {sorted_row[sort_column]} movie franchises.")
+    return df
 
 
 def generate_director_df(df):
@@ -102,15 +107,6 @@ def generate_director_df(df):
         F.mean("revenue_musd").alias("mean_revenue"),
         F.mean("vote_average").alias("mean_rating")
     )
-    
-    
-    
-    
-    # .groupby('director').agg(
-    # num_movies_directed=('id', 'count'),
-    # total_revenue=('revenue_musd', 'sum'),
-    # mean_rating=('vote_average', 'mean')
-
     
     director_summary.coalesce(1).write.mode("overwrite").option("header", True).csv("/Users/gyauk/github/labs/IMBD_movie_analysis/Project1/data/processed/franchise_director.csv")
     return director_summary
