@@ -1,10 +1,11 @@
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
 
+#Explicitly define the structure of the JSON data returned from TMDB before loading it into a PySpark DataFrame
 
 def schema_build():
     """
-    Define the schema for the movie DataFrame based on TMDB API response structure.
+    Define the schema for the  DataFrame based on TMDB API response structure.
     
     Returns:
         StructType: Spark schema for movie data
@@ -25,14 +26,16 @@ def schema_build():
         StructField('poster_path', StringType(), True)  # Path to poster image (string)
     ]
     
+    #similar to a python dictionary in pyspark it is MapType eg {"id": 299534, "name": "Harry Potter"})
     collection_field = StructField('belongs_to_collection', MapType(StringType(), StringType()), True)
-    # MapType for collection metadata (e.g., {"id": 123, "name": "Avengers Collection"}).
     
-    def array_struct(name: str, fields: List[StructField]) -> StructField:
-        return StructField(name, ArrayType(StructType(fields)), True)
+    
     # Creates a StructField for an array of structs (e.g., list of genres).
     # ArrayType: Represents a list.
-    # StructType: Defines the structure of each element in the list.
+    # StructType: Defines the structure of each element in the list
+    def array_struct(name, fields: List[StructField]):
+        return StructField(name, ArrayType(StructType(fields)), True)
+ 
     
     array_fields = [
         array_struct('genres', [
@@ -40,8 +43,8 @@ def schema_build():
             StructField('name', StringType(), True)  # Genre name (e.g., "Action")
         ]),
         array_struct('production_companies', [
-            StructField('id', IntegerType(), True),  # Company ID
-            StructField('name', StringType(), True)  # Company name
+            StructField('id', IntegerType(), True),  # production company id
+            StructField('name', StringType(), True)  # production company name
         ]),
         array_struct('production_countries', [
             StructField('iso_3166_1', StringType(), True),  # Country code (e.g., "US")
@@ -52,7 +55,9 @@ def schema_build():
             StructField('name', StringType(), True)  # Language name
         ])
     ]
-    
+    '''Credits is a struct with two keys: cast and crew of which each is an array of structs like a (lists of dictionaries)
+    and each struct has fields (name, character or job)
+    '''
     credits_field = StructField(
         'credits',
         StructType([
@@ -68,5 +73,6 @@ def schema_build():
         True
     )
     
-    return StructType(basic_fields + [collection_field] + array_fields + [credits_field])
     # Returns a StructType combining all fields for the DataFrame.
+    return StructType(basic_fields + [collection_field] + array_fields + [credits_field])
+    

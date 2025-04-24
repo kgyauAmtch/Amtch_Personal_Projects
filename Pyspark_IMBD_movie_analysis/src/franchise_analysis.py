@@ -7,15 +7,22 @@ def add_is_franchise_column(df, collection_col='collection_name'):
     Adds an 'is_franchise' boolean column based on whether the movie belongs to a collection.
     
     Args:
-        df (DataFrame): Input PySpark DataFrame
-        collection_col (str): Column name containing collection info (typically a StructType)
-
+        df (DataFrame): Input PySpark DataFrame called df_with_franchise_flag
+        collection_col (str): Column name containing collection info
     Returns:
         DataFrame: DataFrame with new 'is_franchise' column
     """
     return df.withColumn("is_franchise", when(col(collection_col).isNotNull(), True).otherwise(False))
 
 def mean_revenue_by_franchise(df):
+    """
+    Adds an 'Mean_Revenue_musd'  column based on is_franchise column.
+    
+    Args:
+        df (DataFrame): 'df_with_franchise_flag' the dataframe with the  PySpark DataFrame
+    Returns:
+        DataFrame: DataFrame with  'is_franchise' and 'Mean_Revenue_musd'  column
+    """
     # Group by the 'is_franchise' column and calculate the mean of 'revenue_musd'
     mean_revenue = df.groupBy('is_franchise').agg(F.avg('revenue_musd').alias('Mean_Revenue_musd'))
     # Convert is_franchise column to 'Franchise' / 'Standalone'

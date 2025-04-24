@@ -29,7 +29,15 @@ The dataset includes information such as:
 
 ---
 
+Name | Description basic_fields | 
+A list of core fields (e.g., id, title, release_date, budget, etc.)
+[collection_field] | A single field describing belongs_to_collection (a dictionary-like map)
+array_fields | A list of fields like genres, production_companies, etc., each of which is an array of structs
+[credits_field] | A single field named credits, which contains nested cast and crew data
+
 ## Key Stages of Analysis
+
+
 
 ### 1. Data Cleaning and Preparation
 

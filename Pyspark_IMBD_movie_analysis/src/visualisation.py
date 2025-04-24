@@ -61,24 +61,6 @@ def yearly_box_office_performance(df):
     plt.show()
     plt.close()
 
-
-# from pyspark.sql.functions import year, sum as Fsum
-
-# def yearly_box_office_performance(df):
-#     # Step 1: Extract year
-#     df_with_year = df.withColumn('release_year', year('release_date'))
-
-#     # Step 2: Group by year and calculate total revenue
-#     yearly_revenue = df_with_year.groupBy('release_year').agg(
-#         Fsum('revenue_musd').alias('total_revenue_musd')
-#     )
-
-#     # Optional: Order the results by year for better readability
-#     yearly_revenue = yearly_revenue.orderBy('release_year')
-
-#     return yearly_revenue
-
-
 def franchise_vs_standalone_success(df):
     # Group by 'is_franchise' and aggregate
     summary_df = df.groupBy("is_franchise").agg(
