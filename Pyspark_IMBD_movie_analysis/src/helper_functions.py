@@ -217,9 +217,7 @@ def clean_duplicates_and_missing_data(df):
 def filter_non_null(df, min_non_null_cols=10):
     """
     Filters DataFrame to:
-    1. Keep rows with at least `min_non_null_cols` non-null values.
-    2. Keep only movies where status == 'Released'.
-    3. Drop the 'status' column after filtering.
+    1. Keep rows with at least minimum of 10 non-null values.
     
     Parameters:
     df (DataFrame): Input DataFrame.
@@ -229,22 +227,12 @@ def filter_non_null(df, min_non_null_cols=10):
     DataFrame: Filtered and cleaned DataFrame.
     """
     # Count number of non-null values per row
-    non_null_expr = sum(col(c).isNotNull().cast("int") for c in df.columns)
+    non_null_expr = sum([when(col(c).isNotNull(), 1).otherwise(0) for c in df.columns])
     
     df = df.withColumn("non_null_count", non_null_expr) \
                     .filter(col("non_null_count") >= min_non_null_cols) \
                     .drop("non_null_count")
     return df
-
-
-def released_movies(df):
-    #  Filter only released movies and drop 'status'
-    df = df.filter(col("status") == "Released").drop("status")
-    return df
-
-
-from pyspark.sql.functions import col, size, expr, filter, explode, when
-from pyspark.sql.types import StringType, ArrayType, StructType
 
 def extract_credits_info(df):
     """
@@ -415,7 +403,6 @@ def highest_revenue_movie(df, title_col, revenue_col):
     return df
 
 def highest_budget_movie(df, title_col, budget_col):
-    # Get the row with the maximum revenue
     max_row = df.orderBy(col(budget_col).desc()).select(title_col, budget_col).first()
     print(f"{max_row[title_col]} was the most budgeted movie with  USD {max_row[budget_col]:,.2f}")
     return df

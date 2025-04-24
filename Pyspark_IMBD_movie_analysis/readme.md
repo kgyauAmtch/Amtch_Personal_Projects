@@ -10,14 +10,14 @@ This project focuses on comprehensive analysis of the TMBD movie trends, compare
 
 - **data/**: Contains raw and cleaned datasets.
 - **notebooks/**: Contains jupyter notebook for analysis.
-- **src/**: Python scripts for modular code.
+- **src/**: Python script for modular code.
 
 ---
 
 ## Data Source
 
 The dataset includes information such as:
-- Movie titles
+- Movie title
 - Budget
 - Revenue
 - Release dates
@@ -83,7 +83,6 @@ array_fields | A list of fields like genres, production_companies, etc., each of
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
 - Jupyter Notebooks
-- Parquet for optimized data storage
 
 
 

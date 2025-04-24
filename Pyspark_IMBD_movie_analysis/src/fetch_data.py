@@ -3,7 +3,18 @@ import json
 import os
 from dotenv import load_dotenv
 from pyspark.sql import SparkSession
-from schema import schema_build  # schema function is in schema.py
+from helper_functions import schema_build  # schema function is in schema.py
+
+"""
+This script fetches movie data from the TMDB API using a list of  movie IDs. The data is saved as JSON format) 
+and then loaded into a PySpark DataFrame using the custom schema.
+
+1. Load environment variables (API key).
+2. Define the TMDB API endpoint and movie ID list.
+3. Fetch each movie's data via API calls.
+4. Save all valid movie data to a .json file.
+5. Load the  file into a Spark DataFrame with a predefined schema.
+"""
 
 # 1. Setup
 load_dotenv()
@@ -27,7 +38,7 @@ def fetch_movie(movie_id):
 # 3. Fetch data
 movies_data = [fetch_movie(mid) for mid in movie_ids if fetch_movie(mid)]
 
-# 4. Save to NDJSON (JSON Lines)
+# 4. Save to (JSON)
 json_path = "/Users/gyauk/github/labs/Pyspark_IMBD_movie_analysis/data/raw/movies.json"
 with open(json_path, "w") as f:
     for movie in movies_data:
