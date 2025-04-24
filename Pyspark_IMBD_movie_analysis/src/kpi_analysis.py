@@ -9,6 +9,12 @@ def highest_revenue_movie(df, title_col, revenue_col):
     print(f"{max_row[title_col]} generated the most revenue of USD {max_row[revenue_col]:,.2f}")
     return df
 
+def highest_budget_movie(df, title_col, budget_col):
+    # Get the row with the maximum revenue
+    max_row = df.orderBy(col(budget_col).desc()).select(title_col, budget_col).first()
+    print(f"{max_row[title_col]} was the most budgeted movie with  USD {max_row[budget_col]:,.2f}")
+    return df
+
 
 def highest_profit_movie(df, title_col, revenue_col, budget_col, profit_col='profit'):
     df = df.withColumn('profit', F.col(revenue_col) - F.col(budget_col))
@@ -49,12 +55,49 @@ def highest_rated(df, title_col, vote_col, vote_avg_col):
 
 def lowest_rated(df, title_col, vote_col, vote_avg_col):
     df = df.filter(F.col(vote_col) >= 10)
-    row = df.orderBy(F.col(vote_avg_col).asc()).select(title_col, vote_avg_col,).first()
+    row = df.orderBy(F.col(vote_avg_col).asc()).select(title_col, vote_avg_col).first()
     print(f"{row[title_col]} was the lowest rated movie with a rating of {row[vote_avg_col]}")
     return df
 
 def most_popular(df, title_col, popularity_col):
-    row = df.orderBy(F.col(popularity_col).desc()).select(title_col, popularity_col,).first()
+    row = df.orderBy(F.col(popularity_col).desc()).select(title_col, popularity_col).first()
     print(f"{row[title_col]} was the most popular movie with a popularity score of {row[popularity_col]}")
     return df
-    
+from pyspark.sql.functions import col, expr
+
+def advanced_search_rating(df):
+    # Filter where genres contain both 'Science Fiction' and 'Action'
+    genre_filter = ( (expr("array_contains(transform(genres, x -> x.name), 'Science Fiction')")) 
+                    &(expr("array_contains(transform(genres, x -> x.name), 'Action')")))
+
+    # Filter where 'Bruce Willis' is in the cast
+    specific_cast__filter = expr("array_contains(transform(credits.cast, x -> x.name), 'Chris Evans')")
+
+    # Apply filters and sort by rating
+    best_rated = df \
+        .filter(genre_filter & specific_cast__filter) \
+        .select("title", "vote_average", "genres", "credits.cast") \
+        .orderBy(col("vote_average").desc())
+
+    # Show result
+    print(f'The best-rated Science Fiction Action movies starring Chris Evans')
+    best_rated.select("title", "vote_average").show(truncate=False)
+    return df
+
+def advanced_search_runtime(df):
+    # Filter where 'Bruce Willis' is in the cast
+    specific_cast__filter = expr("array_contains(transform(credits.cast, x -> x.name), 'Chris Evans')")
+
+    specific_director__filter =  expr(""" exists(credits.crew, x -> x.job = 'Director' AND x.name = 'Anthony Russo')""")
+
+
+    # Apply filters and sort by rating
+    best_rated = df \
+        .filter(specific_director__filter & specific_cast__filter) \
+        .select("title", "runtime", "credits.crew", "credits.cast") \
+        .orderBy(col("runtime").asc())
+
+    # Show result
+    print(f'The movies starring Uma Thurman, directed by Quentin Tarantinois with the sorted runtime')
+    best_rated.select("title", "runtime").show(truncate=False)
+    return df
