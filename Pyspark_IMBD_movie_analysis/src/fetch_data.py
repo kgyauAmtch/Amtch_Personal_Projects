@@ -34,6 +34,7 @@ with open(json_path, "w") as f:
         json.dump(movie, f)
         f.write("\n")
 
+
 # 5. Load into PySpark
 spark = SparkSession.builder \
     .appName("TMDB Movie Loader") \
@@ -42,10 +43,3 @@ spark = SparkSession.builder \
 df = spark.read.schema(schema_build()).json(json_path)
 
 df.printSchema()
-df.show(truncate=False)
-
-# # Define output file path
-# output_path = "/Users/gyauk/github/labs/Pyspark_IMBD_movie_analysis/data/raw/movies.json"
-
-# # Save DataFrame as JSON file
-# df.write.mode("overwrite").json(output_path)
