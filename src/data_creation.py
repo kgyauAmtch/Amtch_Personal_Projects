@@ -79,7 +79,7 @@ for x in  range(1,30):
         # writer.writerow(['Customer_id', 'Product_id', 'Product_category', 'Payment_type', 'Device_Type', 'Event_type', 'Event_date'])
         for n in range(1, 1000):
             writer.writerow(generate_fake_data())
-    time.sleep(2)
+    time.sleep(5)
 
             
         

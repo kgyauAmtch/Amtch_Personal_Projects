@@ -3,13 +3,13 @@ services:
     image: postgres:15  # (optional) specify a Postgres version if you want
     restart: always
     environment:
-      POSTGRES_USER: proj4(streamdata)     # (optional) create a custom username
+      POSTGRES_USER: proj4streamdata    # (optional) create a custom username
       POSTGRES_PASSWORD: pass_word    # (stronger password)
       POSTGRES_DB: realtimedata   # (optional) create a custom default database
     ports:
      - "5433:5432"
     volumes:
-      # - pgdata:/var/lib/postgresql/data
+      # - postgres_data:/var/lib/postgresql/data
       - ./db/postgres_setup.sql:/docker-entrypoint-initdb.d/postgres_setup.sql
     networks:
       - real_data_network

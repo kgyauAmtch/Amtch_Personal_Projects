@@ -1,16 +1,16 @@
-host -
-port 
-user 
-password 
+host - localhost
+port - 5433
+user - proj4streamdata
+password - pass_word
 
 {
   "previewLimit": 50,
   "server": "localhost",
-  "port": 5432,
+  "port": 5433,
   "driver": "PostgreSQL",
   "name": "PG Local",
   "database": "realtimedata",
-  "username": "postgres",
-  "password": "gyaurocks99",
+  "username": "proj4streamdata",
+  "password": "pass_word",
   "connectionTimeout": 30
 }

@@ -17,13 +17,13 @@ def schema_build():
 
 
     basic_fields = [
-        StructField('Customer_id', StringType(), False),  # customerID ID (non-nullable integer)
-        StructField('Product_id', StringType(), False),  # Product id
-        StructField('Product_category', StringType(), True),  # category of products
-        StructField('Payment_type', StringType(), True),  # mode of payment
-        StructField('Device_Type', StringType(), True),  #device used to access the website 
-        StructField('Event_Type', StringType(), True), #date of transaction
-        StructField('Event_date', StringType(), True) #date of transaction
+        StructField('customer_id', StringType(), False),  # customerID ID (non-nullable integer)
+        StructField('product_id', StringType(), False),  # Product id
+        StructField('product_category', StringType(), True),  # category of products
+        StructField('payment_type', StringType(), True),  # mode of payment
+        StructField('device_type', StringType(), True),  #device used to access the website 
+        StructField('event_type', StringType(), True), #date of transaction
+        StructField('event_date', StringType(), True) #date of transaction
     ]
     
    
