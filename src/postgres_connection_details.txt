@@ -1,0 +1,16 @@
+host -
+port 
+user 
+password 
+
+{
+  "previewLimit": 50,
+  "server": "localhost",
+  "port": 5432,
+  "driver": "PostgreSQL",
+  "name": "PG Local",
+  "database": "realtimedata",
+  "username": "postgres",
+  "password": "gyaurocks99",
+  "connectionTimeout": 30
+}
