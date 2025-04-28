@@ -14,3 +14,24 @@ def convert_column_types(df):
      df.printSchema()
      return df
     
+
+# # Assume `streaming_df` is your transformed streaming DataFrame
+
+# def write_to_postgres(batch_df, batch_id):
+#     batch_df.write \
+#         .format("jdbc") \
+#         .option("url", "jdbc:postgresql://localhost:5432/realtimedata") \
+#         .option("dbtable", "synthetic_data") \
+#         .option("user", "your_username") \
+#         .option("password", "gyaurocks99") \
+#         .option("driver", "org.postgresql.Driver") \
+#         .mode("append") \
+#         .save()
+
+# # Attach this function to your streaming query
+# query = cleaned_df.writeStream \
+#     .foreachBatch(write_to_postgres) \
+#     .outputMode("append") \
+#     .start()
+
+# query.awaitTermination()
