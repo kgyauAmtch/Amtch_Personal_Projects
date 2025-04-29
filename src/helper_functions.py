@@ -15,7 +15,7 @@ def convert_column_types(df):
      return df
     
 
-# Assume `streaming_df` is your transformed streaming DataFrame
+#  `streaming_df` is your transformed streaming DataFrame
 
 
 def write_to_postgres(streamed_df, batch_id):
@@ -35,16 +35,4 @@ def write_to_postgres(streamed_df, batch_id):
         print(f"Error during batching {batch_id}: {e}")
         
         
-        
-        
-    # print(f"Batch {batch_id} successfully written to PostgreSQL!")
-    # except Exception as e:
-    # print(f"Error during batch {batch_id}: {e}")
-
-# # Attach this function to your streaming query
-# query = cleaned_df.writeStream \
-#     .foreachBatch(write_to_postgres) \
-#     .outputMode("append") \
-#     .start()
-
-# query.awaitTermination()
+    
