@@ -8,8 +8,10 @@ import schema as sc
 # Initialize Spark
 spark = SparkSession.builder \
          .appName("streaming_data") \
-         .config("spark.jars", "/Users/gyauk/codetools/javajdbc/postgresql-42.7.5.jar") \
+         .config("spark.jars", "/opt/spark/work-dir/postgresql-42.7.5.jar") \
          .getOrCreate()
+         
+spark.sparkContext.setLogLevel("WARN")
 # spark.stop()
 # spark = SparkSession.builder.appName("streaming_data").getOrCreate()
 
@@ -21,7 +23,7 @@ Display the data in each file in the console and truncate them
 '''
 
 # df = spark.read.option("header", "true").option("inferSchema", "true").csv("path/to/file.csv")
-csvDF = spark.readStream.option("sep", ",").schema(sc.schema_build()).csv("/Users/gyauk/github/labs/data")
+csvDF = spark.readStream.option("sep", ",").schema(sc.schema_build()).csv("/opt/spark/data/")
 csvDF.writeStream.format("console").option("truncate", "false").start()
 
 #conver the columns type to correct datatype

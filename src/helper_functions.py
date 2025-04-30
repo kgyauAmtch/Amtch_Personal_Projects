@@ -23,7 +23,7 @@ def write_to_postgres(streamed_df, batch_id):
         print(f"Batch {batch_id} started writing to PostgreSQL...")
         streamed_df.write \
             .format("jdbc") \
-            .option("url", "jdbc:postgresql://localhost:5433/realtimedata") \
+            .option("url", "jdbc:postgresql://db:5432/realtimedata") \
             .option("dbtable", "synthetic_data") \
             .option("user", "proj4streamdata") \
             .option("password", "pass_word") \
