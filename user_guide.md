@@ -43,7 +43,7 @@ Run the data_generator script to simulate incoming data into the `./data/` direc
 
 ---
 
-### 2. 🧹 Clean Start (Recommended for First Run)
+### 2. Clean Start (Recommended for First Run)
 
 Remove any previously created containers and volumes:
 -  using this line 
@@ -68,7 +68,7 @@ This will:
 
 ---
 
-### 4. 🧪 Verify Data in PostgreSQL
+### 4. Verify Data in PostgreSQL
 
 You can connect to the database using any Postgres client (e.g. `psql`, DBeaver, PgAdmin):
 
@@ -86,7 +86,7 @@ SELECT * FROM your_table_name;
 
 ---
 
-## 🧯 Stop the Project
+##  Stop the Project
 
 To stop and remove containers:
 
@@ -102,7 +102,7 @@ docker-compose down -v
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - Spark logs are available in the `spark` container output.
 - The JDBC `.jar` file must be present in the `src/` directory.
