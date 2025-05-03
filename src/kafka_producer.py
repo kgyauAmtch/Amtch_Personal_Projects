@@ -4,16 +4,12 @@ from kafka import KafkaProducer
 from kafka.errors import KafkaError
 import logging as log
 import os 
+import schema as sc
 
 spark=SparkSession.builder\
-       .appname('kafka_producer') \
+       .appName('kafka_producer') \
        .getOrCreate()
        
-
-
-producer = KafkaProducer(bootstrap_servers=['localhost:9092'])
-
-
          
 spark.sparkContext.setLogLevel("WARN")
 
@@ -25,7 +21,7 @@ Display the data in each file in the console and truncate them
 
 # df = spark.read.option("header", "true").option("inferSchema", "true").csv("path/to/file.csv")
 # csvDF = spark.readStream.option("sep", ",").schema(sc.schema_build()).csv("/opt/spark/data/")
-csvDF = spark.readStream.option("sep", ",").schema(sc.schema_build()).csv("/data")
+csvDF = spark.readStream.option("sep", ",").schema(sc.schema_build()).csv("/Users/gyauk/github/labs/data")
 # csvDF.writeStream.format("console").option("truncate", "false").start()
 
 # Convert to Kafka JSON format
@@ -39,7 +35,8 @@ json_df.writeStream \
     .option("checkpointLocation", "/tmp/kafka_checkpoint") \
     .start() \
     .awaitTermination()
-
+    
+print("Test message sent to Kafka topic.")
 
     
 
