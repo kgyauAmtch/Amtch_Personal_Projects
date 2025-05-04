@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import to_json, struct
-from kafka import KafkaProducer
-from kafka.errors import KafkaError
+# from kafka import KafkaProducer
+# from kafka.errors import KafkaError
 import logging as log
 import os 
 import schema as sc
@@ -9,8 +9,7 @@ import schema as sc
 spark=SparkSession.builder\
        .appName('kafka_producer') \
        .getOrCreate()
-       
-         
+            
 spark.sparkContext.setLogLevel("WARN")
 
 ''' 
@@ -20,22 +19,25 @@ Display the data in each file in the console and truncate them
 '''
 
 # df = spark.read.option("header", "true").option("inferSchema", "true").csv("path/to/file.csv")
-# csvDF = spark.readStream.option("sep", ",").schema(sc.schema_build()).csv("/opt/spark/data/")
-csvDF = spark.readStream.option("sep", ",").schema(sc.schema_build()).csv("/Users/gyauk/github/labs/data")
-# csvDF.writeStream.format("console").option("truncate", "false").start()
+csvDF = spark.readStream.option("sep", ",").schema(sc.schema_build()).csv("/opt/spark/data/")
+# csvDF = spark.readStream.option("sep", ",").schema(sc.schema_build()).csv("/Users/gyauk/github/labs/data")
 
+    
 # Convert to Kafka JSON format
 json_df = csvDF.select(to_json(struct([csvDF[col] for col in csvDF.columns])).alias("value"))
 
 # Write to Kafka in streaming mode
-json_df.writeStream \
+query= json_df.writeStream \
     .format("kafka") \
     .option("kafka.bootstrap.servers", "localhost:9092") \
     .option("topic", "producer_to_consumer") \
     .option("checkpointLocation", "/tmp/kafka_checkpoint") \
-    .start() \
-    .awaitTermination()
-    
+    .start() 
+
+
+
+query.awaitTermination()
+
 print("Test message sent to Kafka topic.")
 
     

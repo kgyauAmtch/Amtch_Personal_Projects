@@ -1,0 +1,5 @@
+host - localhost
+port - 5433
+user - proj4streamdata
+password - pass_word
+
