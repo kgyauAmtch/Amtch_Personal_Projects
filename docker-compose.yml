@@ -101,6 +101,16 @@ services:
     networks:
       - real_data_network
 
+
+  grafana_link:
+    build: 
+     context: ./grafana 
+    container_name: grafana 
+    ports: 
+      - 9000:3000
+    volumes:
+      - grafana-data:/var/lib/grafana
+
 networks:
    real_data_network:
      driver: bridge  # Use the bridge network driver for communication between containers
