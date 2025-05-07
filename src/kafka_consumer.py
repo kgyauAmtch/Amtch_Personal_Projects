@@ -52,7 +52,8 @@ def connect_to_postgres():
                 host=POSTGRES_HOST,
                 database=POSTGRES_DB,
                 user=POSTGRES_USER,
-                password=POSTGRES_PASSWORD
+                password=POSTGRES_PASSWORD,
+                sslmode="disable"
             )
             logger.info("Connected to PostgreSQL database")
             return conn
