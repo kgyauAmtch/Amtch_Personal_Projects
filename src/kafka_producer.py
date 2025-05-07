@@ -9,11 +9,11 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-
+# Function to inform that message delivered to kafka cluster. Logging the topic, partition and offset
 def on_send_success(record_metadata):
     print(f'Message delivered to {record_metadata.topic} [{record_metadata.partition}] offset {record_metadata.offset}')
 
-
+# Function to log error where it fails 
 def on_send_error(excp):
     print(f'Message delivery failed: {excp}')
 
@@ -24,7 +24,8 @@ def main():
 
     topic = 'producer_to_consumer'
 
-    for _ in range(1, 1000):
+    # generate 20,000 rows 
+    for _ in range(1, 20000):
         message = get_customer_message()  # Already bytes
         future = producer.send(topic, message)
         future.add_callback(on_send_success)
