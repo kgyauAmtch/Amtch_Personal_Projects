@@ -42,6 +42,7 @@ services:
       POSTGRES_USER: proj5kafka  # Custom Postgres username
       POSTGRES_PASSWORD: pass_word    #  password for Postgres
       POSTGRES_DB: heart_rate_db      # Custom default database
+      PGSSLMODE: disable
     ports:
       - "5435:5432"  # Map local port 5435 to container's port 5432
     volumes:
@@ -69,6 +70,7 @@ services:
       POSTGRES_USER: proj5kafka
       POSTGRES_PASSWORD: pass_word
       POSTGRES_DB: heart_rate_db
+
     command: >
       sh -c "pip install kafka-python psycopg2-binary && sleep 15 && python kafka_consumer.py" # Install kafka-python and run producer wait for 15 secs before running
 
@@ -102,18 +104,26 @@ services:
       - real_data_network
 
 
-  grafana_link:
-    build: 
-     context: ./grafana 
-    container_name: grafana 
-    ports: 
-      - 9000:3000
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
     volumes:
       - grafana-data:/var/lib/grafana
+    depends_on:
+      - db
+    networks: # Add this
+      - real_data_network
+
+
+
+volumes:
+    grafana-data:
+    postgres_data: 
+
 
 networks:
    real_data_network:
      driver: bridge  # Use the bridge network driver for communication between containers
 
-volumes:
-  postgres_data: 
+
