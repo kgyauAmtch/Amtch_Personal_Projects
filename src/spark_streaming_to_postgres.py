@@ -12,9 +12,6 @@ spark = SparkSession.builder \
          .getOrCreate()
          
 spark.sparkContext.setLogLevel("WARN")
-# spark.stop()
-# spark = SparkSession.builder.appName("streaming_data").getOrCreate()
-
 
 ''' 
 Defined the struct type of columns in dataframe in the function schema_build
@@ -30,7 +27,6 @@ csvDF.writeStream.format("console").option("truncate", "false").start()
 cleaned_df= hf.convert_column_types(csvDF)
 
 
-#
 query = cleaned_df.writeStream \
     .foreachBatch(hf.write_to_postgres) \
     .outputMode("append") \

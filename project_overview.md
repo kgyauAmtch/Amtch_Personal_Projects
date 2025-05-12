@@ -21,7 +21,7 @@ This document provides a brief overview of the system's components and how they 
 - Orchestrates the PostgreSQL and Spark containers.
 - Ensures Spark waits until PostgreSQL is healthy before starting.
 
-### 4. **Local Data Directory** (`./data/`)
+### 4. ** Data Directory** (`./data/`)
 - stores generated data form the data_creaation.py
 - Holds incoming CSV files which are picked up by Spark for ingestion.
 - Simulates a data stream by appending new files.
@@ -41,5 +41,5 @@ CSV File → Spark Container (readStream) → Transformations → PostgreSQL Tab
 
 ---
 
----
+
 

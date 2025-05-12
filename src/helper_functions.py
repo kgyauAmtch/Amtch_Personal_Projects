@@ -1,4 +1,3 @@
-import pyspark.sql.functions 
 from pyspark.sql import functions as F
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
@@ -13,11 +12,9 @@ def convert_column_types(df):
            .withColumn("event_date", to_date(col("event_date"), "yyyy-MM-dd"))
      df.printSchema()
      return df
-    
-
-#  `streaming_df` is your transformed streaming DataFrame
 
 
+# function to writedata to postgresd database
 def write_to_postgres(streamed_df, batch_id):
     try:
         print(f"Batch {batch_id} started writing to PostgreSQL...")
@@ -25,7 +22,7 @@ def write_to_postgres(streamed_df, batch_id):
             .format("jdbc") \
             .option("url", "jdbc:postgresql://db:5432/realtimedata") \
             .option("dbtable", "synthetic_data") \
-            .option("user", "proj4streamdata") \
+            .option("user", "sparkproj") \
             .option("password", "pass_word") \
             .option("driver", "org.postgresql.Driver") \
             .mode("append") \

@@ -1,5 +1,3 @@
-from random import randint 
-import pandas as pd 
 from faker import Faker
 from datetime import datetime
 from faker.providers import BaseProvider
@@ -27,7 +25,7 @@ class ProductIDGenerator(BaseProvider):
         self.counter = 0  
 
     def generate_product_id(self):
-        # Increment the counter and return the ID
+        # Increase the count by 1 and return the ID
         self.counter += 1
         return f"Prod_{1000 + self.counter}"
 
@@ -70,11 +68,10 @@ def product_category():
 def generate_fake_data():
     return [fake.generate_customer_id(), fake.generate_product_id(), fake.product_category(), fake.payment_method(), fake.Device_type(),fake.Event_type(),   get_event_date()]
 
-# csvfiles=['ecommerce_data1.csv','ecommerce_data2.csv','ecommerce_data3.csv','ecommerce_data4.csv','ecommerce_data5.csv']
 
-
-for x in  range(1,30):
-    with open(f'/Users/gyauk/github/labs/data/ecommerce_data_{x:01d}.csv', 'w', newline='') as csvfile:
+for x in  range(1,50):
+    # with open(f'/Users/gyauk/github/labs/data/ecommerce_data_{x:01d}.csv', 'w', newline='') as csvfile:
+    with open(f'/opt/spark/data/ecommerce_data_{x:01d}.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         # writer.writerow(['Customer_id', 'Product_id', 'Product_category', 'Payment_type', 'Device_Type', 'Event_type', 'Event_date'])
         for n in range(1, 1000):

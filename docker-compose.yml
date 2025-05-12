@@ -5,7 +5,7 @@ services:
     image: postgres:15  # Use Postgres version 15
     restart: always  # Ensure the service restarts automatically if it fails
     environment:
-      POSTGRES_USER: proj4streamdata  # Custom Postgres username
+      POSTGRES_USER: sparkproj  # Custom Postgres username
       POSTGRES_PASSWORD: pass_word    # Strong password for Postgres
       POSTGRES_DB: realtimedata      # Custom default database
     ports:
@@ -14,26 +14,39 @@ services:
       - postgres_data:/var/lib/postgresql/data  # Persistent volume for Postgres data
       - ./db/postgres_setup.sql:/docker-entrypoint-initdb.d/postgres_setup.sql  # Custom init SQL script
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U realtimedata"]  # Health check to ensure Postgres is ready
+      test: ["CMD-SHELL", "pg_isready -U sparkproj -d realtimedata"]  # Health check to ensure Postgres is ready
       interval: 5s  # Check every 5 seconds
       timeout: 5s   # Timeout after 5 seconds
       retries: 10   # Retry 10 times before marking the service as unhealthy
     networks:
       - real_data_network  # Connect the service to the custom network
 
-  spark:
-    image: bitnami/spark:latest  # Use the latest Bitnami Spark image
+  data_generator:
+    image: python:3.10-slim
+    container_name: data_generator
+    volumes:
+      - ./src:/opt/spark/work-dir
+      - ./data:/opt/spark/data  
+    working_dir: /opt/spark/work-dir
+    command: >
+      sh -c "pip install faker  && python -u data_creation.py"
+    depends_on:
+      - db
+    networks:
+      - real_data_network
 
+  spark:
+    image: bitnami/spark:latest  # Use the Bitnami Spark image
     volumes:
       - ./src:/opt/spark/work-dir  # Mount the src folder to the working directory inside the container
-      - ./data:/opt/spark/data   
+      - ./data:/opt/spark/data   # Mount the data folder to the working directory inside the container
     working_dir: /opt/spark/work-dir  # Set working directory for Spark
     command: >
       spark-submit
        --jars /opt/spark/work-dir/postgresql-42.7.5.jar
        /opt/spark/work-dir/spark_streaming_to_postgres.py
     ports:
-      - "4041:4040"  # Map local port 4041 to Spark UI port 4040
+      - "4041:4040"  # Map local/host port 4041 to container port 4040
     depends_on:
       db:
         condition: service_healthy  # Wait until the Postgres service is healthy
@@ -49,72 +62,3 @@ networks:
 
 
 
-
-
-
-# services:
-
-
-#  db:
-#     image: postgres:15  # (optional) specify a Postgres version if you want
-#     restart: always
-#     environment:
-#       POSTGRES_USER: proj4streamdata    # (optional) create a custom username
-#       POSTGRES_PASSWORD: pass_word    # (stronger password)
-#       POSTGRES_DB: realtimedata   # (optional) create a custom default database
-#     ports:
-#      - "5433:5432"
-#     volumes:
-#       - postgres_data:/var/lib/postgresql/data
-#       - ./db/postgres_setup.sql:/docker-entrypoint-initdb.d/postgres_setup.sql
-#     healthcheck:
-#           test: ["CMD-SHELL", "pg_isready -U realtimedata"]
-#           interval: 5s
-#           timeout: 5s
-#           retries: 10
-#     networks:
-#       - real_data_network
-    
-#  spark:
-#     image: bitnami/spark:latest
-#     volumes:
-#       - ./src:/opt/spark/work-dir
-#     working_dir: /opt/spark/work-dir
-#     command: >
-#       spark-submit 
-#       --jars postgresql-42.7.5.jar 
-#       spark_streaming_to_postgres.py
-#     ports:
-#       - "4041:4040"
-#     depends_on:
-#       db:
-#         condition: service_healthy
-        
-#     networks:
-#       - real_data_network
-
-
-# volumes:
-#   postgres_data:
-
-
-# networks:
-#  real_data_network:
-#    driver: bridge
-
-
-
-    # # delay spark until postgres is ready to accept data
-   
-  
-#  spark:
-#     image: bitnami/spark:latest
-#     volumes:
-#       - .:/src
-#     command: spark-submit --jars /src/src/postgresql-42.7.5.jar /src/src/spark_streaming_to_postgres.py
-#     ports:
-#       - "4041:4040"
-#     depends_on:
-#       db:
-#         condition: service_healthy
-      

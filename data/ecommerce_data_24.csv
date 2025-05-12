@@ -1,0 +1,999 @@
+CUST-23978,Prod_23978,Hardware,Paypal,Mobile,Addtocart,03-01-2023
+CUST-23979,Prod_23979,Electronics,Momo,Mobile,Addtocart,30-09-2023
+CUST-23980,Prod_23980,Beauty,Paypal,Mobile,Addtocart,25-08-2024
+CUST-23981,Prod_23981,Hardware,Paypal,Desktop,Addtocart,30-11-2023
+CUST-23982,Prod_23982,Clothes,Visa Card,Desktop,Addtocart,16-10-2021
+CUST-23983,Prod_23983,Clothes,Momo,Mobile,Purchase,16-03-2024
+CUST-23984,Prod_23984,Hardware,Momo,Desktop,Purchase,29-06-2021
+CUST-23985,Prod_23985,Beauty,Visa Card,Mobile,Addtocart,22-02-2024
+CUST-23986,Prod_23986,Accessories,Paypal,Desktop,Addtocart,21-10-2023
+CUST-23987,Prod_23987,Books,Visa Card,Desktop,Addtocart,17-11-2021
+CUST-23988,Prod_23988,Beauty,Paypal,Mobile,Purchase,05-06-2024
+CUST-23989,Prod_23989,Hardware,Paypal,Mobile,Purchase,02-11-2023
+CUST-23990,Prod_23990,Accessories,Momo,Mobile,Purchase,11-03-2020
+CUST-23991,Prod_23991,Clothes,Visa Card,Desktop,Addtocart,16-02-2024
+CUST-23992,Prod_23992,Furniture,Momo,Mobile,Addtocart,28-04-2021
+CUST-23993,Prod_23993,Clothes,Momo,Desktop,Purchase,07-07-2024
+CUST-23994,Prod_23994,Electronics,Visa Card,Desktop,Addtocart,15-01-2023
+CUST-23995,Prod_23995,Clothes,Paypal,Mobile,Purchase,26-01-2021
+CUST-23996,Prod_23996,Electronics,Paypal,Desktop,Addtocart,06-01-2022
+CUST-23997,Prod_23997,Furniture,Visa Card,Mobile,Purchase,30-04-2025
+CUST-23998,Prod_23998,Hardware,Visa Card,Desktop,Purchase,10-09-2024
+CUST-23999,Prod_23999,Accessories,Paypal,Mobile,Purchase,28-04-2023
+CUST-24000,Prod_24000,Hardware,Visa Card,Desktop,Purchase,19-11-2021
+CUST-24001,Prod_24001,Accessories,Visa Card,Desktop,Purchase,04-09-2021
+CUST-24002,Prod_24002,Books,Visa Card,Desktop,Addtocart,28-12-2022
+CUST-24003,Prod_24003,Clothes,Momo,Mobile,Addtocart,26-04-2024
+CUST-24004,Prod_24004,Furniture,Paypal,Mobile,Addtocart,06-05-2020
+CUST-24005,Prod_24005,Accessories,Visa Card,Desktop,Addtocart,01-10-2022
+CUST-24006,Prod_24006,Books,Visa Card,Mobile,Addtocart,20-06-2020
+CUST-24007,Prod_24007,Beauty,Momo,Desktop,Addtocart,30-04-2021
+CUST-24008,Prod_24008,Furniture,Momo,Mobile,Addtocart,28-02-2020
+CUST-24009,Prod_24009,Accessories,Momo,Mobile,Purchase,15-12-2021
+CUST-24010,Prod_24010,Furniture,Momo,Desktop,Addtocart,20-02-2020
+CUST-24011,Prod_24011,Books,Paypal,Mobile,Purchase,13-08-2020
+CUST-24012,Prod_24012,Electronics,Momo,Mobile,Purchase,25-09-2020
+CUST-24013,Prod_24013,Clothes,Paypal,Mobile,Addtocart,01-10-2021
+CUST-24014,Prod_24014,Books,Visa Card,Mobile,Addtocart,12-11-2024
+CUST-24015,Prod_24015,Beauty,Paypal,Mobile,Addtocart,05-01-2022
+CUST-24016,Prod_24016,Accessories,Visa Card,Mobile,Purchase,30-06-2021
+CUST-24017,Prod_24017,Furniture,Momo,Desktop,Addtocart,20-02-2021
+CUST-24018,Prod_24018,Beauty,Paypal,Desktop,Addtocart,04-05-2025
+CUST-24019,Prod_24019,Hardware,Visa Card,Mobile,Addtocart,20-02-2022
+CUST-24020,Prod_24020,Hardware,Momo,Mobile,Purchase,13-06-2023
+CUST-24021,Prod_24021,Electronics,Paypal,Mobile,Purchase,10-09-2024
+CUST-24022,Prod_24022,Beauty,Paypal,Desktop,Addtocart,11-03-2020
+CUST-24023,Prod_24023,Books,Momo,Desktop,Purchase,22-09-2023
+CUST-24024,Prod_24024,Hardware,Momo,Desktop,Purchase,05-09-2020
+CUST-24025,Prod_24025,Clothes,Paypal,Desktop,Purchase,03-03-2021
+CUST-24026,Prod_24026,Clothes,Momo,Mobile,Addtocart,09-02-2021
+CUST-24027,Prod_24027,Accessories,Visa Card,Mobile,Purchase,17-02-2023
+CUST-24028,Prod_24028,Hardware,Paypal,Desktop,Purchase,31-10-2022
+CUST-24029,Prod_24029,Beauty,Visa Card,Mobile,Addtocart,30-01-2022
+CUST-24030,Prod_24030,Furniture,Paypal,Mobile,Addtocart,22-09-2024
+CUST-24031,Prod_24031,Books,Momo,Mobile,Addtocart,08-03-2025
+CUST-24032,Prod_24032,Hardware,Paypal,Desktop,Purchase,28-11-2024
+CUST-24033,Prod_24033,Furniture,Visa Card,Desktop,Addtocart,26-02-2024
+CUST-24034,Prod_24034,Furniture,Momo,Desktop,Addtocart,09-07-2023
+CUST-24035,Prod_24035,Electronics,Momo,Mobile,Purchase,02-03-2023
+CUST-24036,Prod_24036,Electronics,Momo,Desktop,Purchase,18-01-2022
+CUST-24037,Prod_24037,Hardware,Momo,Mobile,Purchase,22-04-2022
+CUST-24038,Prod_24038,Clothes,Paypal,Desktop,Addtocart,10-06-2023
+CUST-24039,Prod_24039,Books,Paypal,Mobile,Addtocart,10-10-2024
+CUST-24040,Prod_24040,Accessories,Paypal,Desktop,Purchase,24-02-2024
+CUST-24041,Prod_24041,Electronics,Paypal,Desktop,Addtocart,05-11-2023
+CUST-24042,Prod_24042,Accessories,Visa Card,Mobile,Purchase,05-09-2022
+CUST-24043,Prod_24043,Clothes,Visa Card,Mobile,Purchase,20-04-2022
+CUST-24044,Prod_24044,Electronics,Momo,Mobile,Addtocart,19-07-2022
+CUST-24045,Prod_24045,Beauty,Visa Card,Mobile,Addtocart,06-12-2023
+CUST-24046,Prod_24046,Accessories,Paypal,Desktop,Purchase,10-12-2023
+CUST-24047,Prod_24047,Clothes,Visa Card,Desktop,Addtocart,21-08-2020
+CUST-24048,Prod_24048,Clothes,Visa Card,Mobile,Addtocart,03-04-2023
+CUST-24049,Prod_24049,Beauty,Momo,Mobile,Purchase,18-02-2023
+CUST-24050,Prod_24050,Accessories,Paypal,Mobile,Addtocart,18-10-2023
+CUST-24051,Prod_24051,Accessories,Momo,Desktop,Purchase,12-09-2020
+CUST-24052,Prod_24052,Hardware,Visa Card,Mobile,Purchase,09-06-2024
+CUST-24053,Prod_24053,Hardware,Paypal,Desktop,Purchase,25-07-2020
+CUST-24054,Prod_24054,Hardware,Momo,Desktop,Purchase,14-06-2024
+CUST-24055,Prod_24055,Accessories,Paypal,Desktop,Addtocart,03-09-2021
+CUST-24056,Prod_24056,Clothes,Paypal,Desktop,Purchase,22-02-2021
+CUST-24057,Prod_24057,Furniture,Visa Card,Mobile,Addtocart,17-09-2022
+CUST-24058,Prod_24058,Books,Visa Card,Mobile,Addtocart,15-03-2021
+CUST-24059,Prod_24059,Electronics,Paypal,Mobile,Addtocart,03-07-2020
+CUST-24060,Prod_24060,Clothes,Visa Card,Desktop,Purchase,20-12-2020
+CUST-24061,Prod_24061,Books,Momo,Desktop,Purchase,04-08-2024
+CUST-24062,Prod_24062,Beauty,Visa Card,Mobile,Addtocart,04-09-2022
+CUST-24063,Prod_24063,Accessories,Paypal,Desktop,Purchase,20-08-2020
+CUST-24064,Prod_24064,Accessories,Visa Card,Mobile,Purchase,14-08-2023
+CUST-24065,Prod_24065,Books,Visa Card,Mobile,Purchase,20-01-2024
+CUST-24066,Prod_24066,Clothes,Momo,Mobile,Addtocart,25-06-2024
+CUST-24067,Prod_24067,Hardware,Paypal,Desktop,Addtocart,24-01-2025
+CUST-24068,Prod_24068,Accessories,Momo,Mobile,Addtocart,20-06-2022
+CUST-24069,Prod_24069,Clothes,Momo,Mobile,Purchase,06-12-2021
+CUST-24070,Prod_24070,Accessories,Momo,Mobile,Purchase,16-07-2020
+CUST-24071,Prod_24071,Beauty,Paypal,Mobile,Addtocart,17-02-2025
+CUST-24072,Prod_24072,Hardware,Visa Card,Mobile,Purchase,08-07-2023
+CUST-24073,Prod_24073,Hardware,Momo,Desktop,Purchase,18-05-2023
+CUST-24074,Prod_24074,Hardware,Momo,Mobile,Purchase,27-08-2020
+CUST-24075,Prod_24075,Beauty,Visa Card,Desktop,Purchase,20-12-2024
+CUST-24076,Prod_24076,Books,Momo,Desktop,Purchase,03-02-2021
+CUST-24077,Prod_24077,Furniture,Momo,Mobile,Purchase,12-09-2021
+CUST-24078,Prod_24078,Hardware,Paypal,Desktop,Purchase,05-01-2024
+CUST-24079,Prod_24079,Furniture,Momo,Desktop,Addtocart,28-09-2021
+CUST-24080,Prod_24080,Beauty,Momo,Desktop,Purchase,11-08-2021
+CUST-24081,Prod_24081,Electronics,Momo,Mobile,Addtocart,20-05-2023
+CUST-24082,Prod_24082,Beauty,Visa Card,Desktop,Addtocart,04-12-2024
+CUST-24083,Prod_24083,Accessories,Momo,Desktop,Purchase,26-08-2020
+CUST-24084,Prod_24084,Books,Paypal,Mobile,Addtocart,13-03-2020
+CUST-24085,Prod_24085,Electronics,Momo,Desktop,Purchase,18-10-2021
+CUST-24086,Prod_24086,Clothes,Visa Card,Desktop,Purchase,30-09-2024
+CUST-24087,Prod_24087,Clothes,Visa Card,Mobile,Addtocart,10-03-2020
+CUST-24088,Prod_24088,Furniture,Momo,Mobile,Purchase,22-01-2021
+CUST-24089,Prod_24089,Books,Paypal,Mobile,Addtocart,01-06-2020
+CUST-24090,Prod_24090,Accessories,Paypal,Mobile,Purchase,19-07-2020
+CUST-24091,Prod_24091,Furniture,Paypal,Desktop,Addtocart,07-05-2022
+CUST-24092,Prod_24092,Furniture,Paypal,Desktop,Purchase,27-11-2020
+CUST-24093,Prod_24093,Furniture,Momo,Desktop,Addtocart,15-07-2020
+CUST-24094,Prod_24094,Accessories,Visa Card,Mobile,Purchase,24-11-2023
+CUST-24095,Prod_24095,Furniture,Momo,Mobile,Addtocart,14-03-2024
+CUST-24096,Prod_24096,Accessories,Visa Card,Desktop,Addtocart,18-01-2022
+CUST-24097,Prod_24097,Accessories,Visa Card,Desktop,Purchase,16-08-2020
+CUST-24098,Prod_24098,Furniture,Momo,Mobile,Addtocart,19-08-2023
+CUST-24099,Prod_24099,Clothes,Visa Card,Mobile,Addtocart,27-03-2023
+CUST-24100,Prod_24100,Accessories,Paypal,Mobile,Purchase,04-05-2021
+CUST-24101,Prod_24101,Electronics,Visa Card,Desktop,Purchase,10-11-2022
+CUST-24102,Prod_24102,Clothes,Momo,Desktop,Purchase,27-02-2025
+CUST-24103,Prod_24103,Furniture,Visa Card,Mobile,Addtocart,10-12-2020
+CUST-24104,Prod_24104,Accessories,Momo,Mobile,Purchase,12-07-2024
+CUST-24105,Prod_24105,Furniture,Visa Card,Desktop,Purchase,27-08-2024
+CUST-24106,Prod_24106,Furniture,Paypal,Mobile,Purchase,05-01-2025
+CUST-24107,Prod_24107,Beauty,Visa Card,Mobile,Purchase,09-03-2025
+CUST-24108,Prod_24108,Hardware,Momo,Mobile,Purchase,05-06-2022
+CUST-24109,Prod_24109,Beauty,Paypal,Desktop,Addtocart,08-04-2025
+CUST-24110,Prod_24110,Furniture,Visa Card,Desktop,Addtocart,12-08-2021
+CUST-24111,Prod_24111,Books,Paypal,Mobile,Addtocart,15-11-2021
+CUST-24112,Prod_24112,Accessories,Momo,Desktop,Addtocart,22-06-2022
+CUST-24113,Prod_24113,Books,Paypal,Desktop,Addtocart,28-08-2024
+CUST-24114,Prod_24114,Books,Paypal,Desktop,Purchase,11-02-2022
+CUST-24115,Prod_24115,Books,Momo,Desktop,Purchase,25-04-2021
+CUST-24116,Prod_24116,Furniture,Visa Card,Desktop,Purchase,04-09-2023
+CUST-24117,Prod_24117,Electronics,Visa Card,Mobile,Purchase,07-10-2021
+CUST-24118,Prod_24118,Beauty,Paypal,Mobile,Addtocart,08-05-2023
+CUST-24119,Prod_24119,Hardware,Visa Card,Mobile,Addtocart,19-03-2024
+CUST-24120,Prod_24120,Hardware,Paypal,Mobile,Addtocart,18-09-2021
+CUST-24121,Prod_24121,Accessories,Momo,Desktop,Purchase,05-12-2020
+CUST-24122,Prod_24122,Electronics,Visa Card,Desktop,Addtocart,20-12-2021
+CUST-24123,Prod_24123,Electronics,Paypal,Mobile,Purchase,23-11-2021
+CUST-24124,Prod_24124,Beauty,Paypal,Mobile,Addtocart,23-02-2025
+CUST-24125,Prod_24125,Furniture,Visa Card,Desktop,Addtocart,06-09-2023
+CUST-24126,Prod_24126,Electronics,Paypal,Mobile,Purchase,01-01-2025
+CUST-24127,Prod_24127,Beauty,Momo,Desktop,Purchase,19-02-2021
+CUST-24128,Prod_24128,Clothes,Paypal,Mobile,Purchase,22-04-2025
+CUST-24129,Prod_24129,Beauty,Momo,Mobile,Purchase,08-07-2020
+CUST-24130,Prod_24130,Furniture,Visa Card,Mobile,Addtocart,07-05-2021
+CUST-24131,Prod_24131,Hardware,Momo,Mobile,Purchase,16-02-2021
+CUST-24132,Prod_24132,Clothes,Paypal,Mobile,Purchase,03-02-2024
+CUST-24133,Prod_24133,Accessories,Paypal,Desktop,Purchase,26-04-2025
+CUST-24134,Prod_24134,Accessories,Paypal,Desktop,Addtocart,15-12-2024
+CUST-24135,Prod_24135,Furniture,Visa Card,Desktop,Addtocart,13-01-2020
+CUST-24136,Prod_24136,Beauty,Visa Card,Mobile,Addtocart,18-12-2024
+CUST-24137,Prod_24137,Books,Paypal,Mobile,Purchase,18-11-2023
+CUST-24138,Prod_24138,Electronics,Paypal,Mobile,Addtocart,19-07-2023
+CUST-24139,Prod_24139,Electronics,Visa Card,Mobile,Addtocart,08-12-2020
+CUST-24140,Prod_24140,Clothes,Paypal,Mobile,Purchase,07-04-2023
+CUST-24141,Prod_24141,Books,Paypal,Mobile,Addtocart,25-01-2020
+CUST-24142,Prod_24142,Beauty,Visa Card,Desktop,Addtocart,10-11-2023
+CUST-24143,Prod_24143,Hardware,Paypal,Mobile,Addtocart,03-12-2024
+CUST-24144,Prod_24144,Accessories,Momo,Mobile,Addtocart,28-01-2023
+CUST-24145,Prod_24145,Clothes,Momo,Mobile,Purchase,11-01-2023
+CUST-24146,Prod_24146,Hardware,Visa Card,Mobile,Addtocart,11-10-2024
+CUST-24147,Prod_24147,Furniture,Visa Card,Desktop,Addtocart,10-05-2022
+CUST-24148,Prod_24148,Furniture,Momo,Desktop,Purchase,26-04-2021
+CUST-24149,Prod_24149,Clothes,Momo,Desktop,Addtocart,08-01-2020
+CUST-24150,Prod_24150,Furniture,Visa Card,Desktop,Addtocart,11-03-2023
+CUST-24151,Prod_24151,Beauty,Paypal,Desktop,Addtocart,15-06-2023
+CUST-24152,Prod_24152,Furniture,Paypal,Mobile,Addtocart,18-01-2025
+CUST-24153,Prod_24153,Clothes,Visa Card,Desktop,Addtocart,16-02-2023
+CUST-24154,Prod_24154,Electronics,Visa Card,Mobile,Addtocart,23-06-2022
+CUST-24155,Prod_24155,Beauty,Momo,Mobile,Addtocart,30-03-2021
+CUST-24156,Prod_24156,Books,Paypal,Mobile,Purchase,19-01-2022
+CUST-24157,Prod_24157,Furniture,Visa Card,Mobile,Addtocart,08-11-2022
+CUST-24158,Prod_24158,Hardware,Momo,Mobile,Addtocart,26-03-2021
+CUST-24159,Prod_24159,Books,Visa Card,Desktop,Purchase,06-09-2022
+CUST-24160,Prod_24160,Furniture,Paypal,Mobile,Purchase,18-05-2021
+CUST-24161,Prod_24161,Beauty,Paypal,Desktop,Purchase,09-07-2020
+CUST-24162,Prod_24162,Furniture,Visa Card,Mobile,Purchase,29-04-2025
+CUST-24163,Prod_24163,Electronics,Paypal,Mobile,Purchase,23-01-2024
+CUST-24164,Prod_24164,Hardware,Paypal,Mobile,Purchase,09-08-2024
+CUST-24165,Prod_24165,Accessories,Momo,Mobile,Purchase,09-01-2025
+CUST-24166,Prod_24166,Furniture,Paypal,Mobile,Addtocart,11-01-2022
+CUST-24167,Prod_24167,Hardware,Momo,Desktop,Addtocart,19-05-2021
+CUST-24168,Prod_24168,Beauty,Momo,Desktop,Addtocart,14-01-2023
+CUST-24169,Prod_24169,Furniture,Visa Card,Mobile,Addtocart,20-11-2023
+CUST-24170,Prod_24170,Furniture,Momo,Desktop,Purchase,28-04-2023
+CUST-24171,Prod_24171,Furniture,Visa Card,Mobile,Addtocart,23-09-2020
+CUST-24172,Prod_24172,Accessories,Visa Card,Desktop,Purchase,24-12-2022
+CUST-24173,Prod_24173,Accessories,Paypal,Mobile,Purchase,16-10-2024
+CUST-24174,Prod_24174,Accessories,Momo,Mobile,Purchase,19-04-2022
+CUST-24175,Prod_24175,Clothes,Paypal,Mobile,Purchase,11-12-2023
+CUST-24176,Prod_24176,Furniture,Paypal,Desktop,Addtocart,29-08-2024
+CUST-24177,Prod_24177,Furniture,Paypal,Desktop,Purchase,03-05-2023
+CUST-24178,Prod_24178,Beauty,Visa Card,Mobile,Purchase,22-06-2023
+CUST-24179,Prod_24179,Beauty,Paypal,Mobile,Purchase,14-10-2023
+CUST-24180,Prod_24180,Hardware,Momo,Mobile,Purchase,26-11-2022
+CUST-24181,Prod_24181,Beauty,Momo,Mobile,Purchase,03-10-2021
+CUST-24182,Prod_24182,Books,Momo,Desktop,Purchase,27-03-2024
+CUST-24183,Prod_24183,Hardware,Momo,Mobile,Addtocart,28-12-2021
+CUST-24184,Prod_24184,Books,Momo,Desktop,Addtocart,20-04-2025
+CUST-24185,Prod_24185,Clothes,Momo,Mobile,Purchase,15-11-2021
+CUST-24186,Prod_24186,Accessories,Momo,Mobile,Purchase,08-06-2022
+CUST-24187,Prod_24187,Furniture,Paypal,Desktop,Purchase,03-03-2023
+CUST-24188,Prod_24188,Beauty,Visa Card,Mobile,Purchase,21-11-2021
+CUST-24189,Prod_24189,Furniture,Paypal,Mobile,Purchase,31-05-2021
+CUST-24190,Prod_24190,Clothes,Paypal,Mobile,Purchase,15-08-2023
+CUST-24191,Prod_24191,Electronics,Paypal,Desktop,Purchase,08-12-2020
+CUST-24192,Prod_24192,Accessories,Paypal,Desktop,Purchase,08-05-2020
+CUST-24193,Prod_24193,Furniture,Visa Card,Desktop,Purchase,16-01-2023
+CUST-24194,Prod_24194,Accessories,Momo,Desktop,Purchase,05-06-2021
+CUST-24195,Prod_24195,Furniture,Momo,Mobile,Addtocart,05-05-2025
+CUST-24196,Prod_24196,Electronics,Momo,Mobile,Purchase,20-04-2024
+CUST-24197,Prod_24197,Electronics,Visa Card,Desktop,Addtocart,29-11-2023
+CUST-24198,Prod_24198,Books,Visa Card,Mobile,Addtocart,27-07-2023
+CUST-24199,Prod_24199,Clothes,Visa Card,Mobile,Addtocart,18-10-2024
+CUST-24200,Prod_24200,Clothes,Momo,Mobile,Purchase,01-01-2021
+CUST-24201,Prod_24201,Beauty,Momo,Desktop,Addtocart,06-03-2025
+CUST-24202,Prod_24202,Hardware,Visa Card,Desktop,Addtocart,18-02-2023
+CUST-24203,Prod_24203,Clothes,Momo,Mobile,Purchase,13-01-2024
+CUST-24204,Prod_24204,Books,Momo,Mobile,Purchase,07-03-2023
+CUST-24205,Prod_24205,Electronics,Momo,Desktop,Addtocart,08-04-2024
+CUST-24206,Prod_24206,Beauty,Paypal,Mobile,Purchase,11-04-2021
+CUST-24207,Prod_24207,Books,Visa Card,Desktop,Addtocart,07-06-2022
+CUST-24208,Prod_24208,Electronics,Momo,Desktop,Addtocart,22-06-2020
+CUST-24209,Prod_24209,Electronics,Paypal,Mobile,Purchase,06-07-2024
+CUST-24210,Prod_24210,Furniture,Paypal,Desktop,Purchase,08-02-2023
+CUST-24211,Prod_24211,Hardware,Momo,Desktop,Addtocart,15-07-2020
+CUST-24212,Prod_24212,Hardware,Visa Card,Desktop,Addtocart,30-12-2024
+CUST-24213,Prod_24213,Hardware,Momo,Mobile,Purchase,10-02-2020
+CUST-24214,Prod_24214,Hardware,Momo,Desktop,Addtocart,23-11-2024
+CUST-24215,Prod_24215,Hardware,Visa Card,Mobile,Purchase,26-12-2020
+CUST-24216,Prod_24216,Electronics,Momo,Desktop,Addtocart,13-11-2021
+CUST-24217,Prod_24217,Clothes,Paypal,Desktop,Addtocart,21-01-2022
+CUST-24218,Prod_24218,Electronics,Paypal,Desktop,Addtocart,02-02-2024
+CUST-24219,Prod_24219,Hardware,Visa Card,Mobile,Purchase,21-03-2024
+CUST-24220,Prod_24220,Electronics,Visa Card,Mobile,Addtocart,08-01-2023
+CUST-24221,Prod_24221,Accessories,Visa Card,Desktop,Addtocart,01-02-2022
+CUST-24222,Prod_24222,Clothes,Visa Card,Mobile,Addtocart,06-07-2023
+CUST-24223,Prod_24223,Clothes,Momo,Mobile,Addtocart,19-05-2023
+CUST-24224,Prod_24224,Furniture,Visa Card,Mobile,Addtocart,16-09-2024
+CUST-24225,Prod_24225,Clothes,Visa Card,Desktop,Purchase,18-07-2023
+CUST-24226,Prod_24226,Electronics,Visa Card,Mobile,Purchase,07-03-2022
+CUST-24227,Prod_24227,Accessories,Paypal,Desktop,Addtocart,13-01-2020
+CUST-24228,Prod_24228,Electronics,Momo,Desktop,Purchase,01-12-2021
+CUST-24229,Prod_24229,Electronics,Momo,Desktop,Addtocart,20-10-2023
+CUST-24230,Prod_24230,Electronics,Paypal,Mobile,Addtocart,22-02-2024
+CUST-24231,Prod_24231,Beauty,Momo,Mobile,Purchase,18-08-2020
+CUST-24232,Prod_24232,Furniture,Momo,Mobile,Addtocart,06-09-2023
+CUST-24233,Prod_24233,Accessories,Visa Card,Mobile,Addtocart,28-03-2020
+CUST-24234,Prod_24234,Beauty,Visa Card,Desktop,Purchase,22-08-2021
+CUST-24235,Prod_24235,Hardware,Visa Card,Mobile,Addtocart,30-09-2023
+CUST-24236,Prod_24236,Beauty,Paypal,Desktop,Addtocart,05-03-2025
+CUST-24237,Prod_24237,Accessories,Momo,Mobile,Addtocart,16-05-2021
+CUST-24238,Prod_24238,Furniture,Visa Card,Mobile,Purchase,09-11-2024
+CUST-24239,Prod_24239,Furniture,Momo,Desktop,Purchase,02-12-2020
+CUST-24240,Prod_24240,Clothes,Momo,Mobile,Purchase,09-12-2024
+CUST-24241,Prod_24241,Beauty,Momo,Mobile,Addtocart,11-01-2020
+CUST-24242,Prod_24242,Furniture,Visa Card,Mobile,Addtocart,02-10-2020
+CUST-24243,Prod_24243,Accessories,Momo,Mobile,Purchase,11-03-2023
+CUST-24244,Prod_24244,Hardware,Paypal,Desktop,Purchase,09-02-2022
+CUST-24245,Prod_24245,Accessories,Momo,Desktop,Purchase,29-03-2020
+CUST-24246,Prod_24246,Books,Visa Card,Desktop,Purchase,03-06-2022
+CUST-24247,Prod_24247,Hardware,Paypal,Mobile,Purchase,22-09-2023
+CUST-24248,Prod_24248,Books,Paypal,Desktop,Addtocart,14-10-2022
+CUST-24249,Prod_24249,Furniture,Paypal,Mobile,Purchase,05-12-2020
+CUST-24250,Prod_24250,Furniture,Momo,Mobile,Purchase,22-02-2024
+CUST-24251,Prod_24251,Beauty,Paypal,Desktop,Purchase,09-01-2021
+CUST-24252,Prod_24252,Furniture,Momo,Desktop,Purchase,03-05-2024
+CUST-24253,Prod_24253,Accessories,Momo,Mobile,Purchase,25-07-2023
+CUST-24254,Prod_24254,Hardware,Paypal,Mobile,Addtocart,27-01-2021
+CUST-24255,Prod_24255,Accessories,Paypal,Desktop,Purchase,02-03-2020
+CUST-24256,Prod_24256,Furniture,Momo,Mobile,Addtocart,18-12-2023
+CUST-24257,Prod_24257,Books,Paypal,Desktop,Purchase,01-08-2022
+CUST-24258,Prod_24258,Furniture,Momo,Desktop,Addtocart,10-03-2024
+CUST-24259,Prod_24259,Furniture,Visa Card,Mobile,Purchase,21-09-2020
+CUST-24260,Prod_24260,Accessories,Paypal,Mobile,Purchase,23-05-2024
+CUST-24261,Prod_24261,Clothes,Visa Card,Mobile,Addtocart,08-08-2024
+CUST-24262,Prod_24262,Furniture,Paypal,Desktop,Purchase,25-10-2020
+CUST-24263,Prod_24263,Electronics,Paypal,Desktop,Purchase,16-08-2023
+CUST-24264,Prod_24264,Books,Paypal,Desktop,Purchase,20-10-2020
+CUST-24265,Prod_24265,Beauty,Paypal,Mobile,Purchase,23-04-2025
+CUST-24266,Prod_24266,Books,Momo,Desktop,Purchase,22-11-2024
+CUST-24267,Prod_24267,Hardware,Visa Card,Mobile,Purchase,14-05-2021
+CUST-24268,Prod_24268,Furniture,Momo,Mobile,Addtocart,13-11-2024
+CUST-24269,Prod_24269,Beauty,Momo,Mobile,Addtocart,26-02-2020
+CUST-24270,Prod_24270,Hardware,Visa Card,Mobile,Addtocart,27-01-2021
+CUST-24271,Prod_24271,Electronics,Momo,Desktop,Purchase,07-03-2025
+CUST-24272,Prod_24272,Accessories,Paypal,Mobile,Addtocart,05-09-2021
+CUST-24273,Prod_24273,Beauty,Paypal,Desktop,Addtocart,02-11-2023
+CUST-24274,Prod_24274,Hardware,Paypal,Desktop,Addtocart,10-10-2022
+CUST-24275,Prod_24275,Electronics,Momo,Desktop,Addtocart,14-09-2022
+CUST-24276,Prod_24276,Hardware,Momo,Mobile,Addtocart,20-08-2021
+CUST-24277,Prod_24277,Clothes,Paypal,Desktop,Addtocart,09-06-2023
+CUST-24278,Prod_24278,Accessories,Paypal,Mobile,Addtocart,15-05-2021
+CUST-24279,Prod_24279,Clothes,Momo,Desktop,Addtocart,29-05-2023
+CUST-24280,Prod_24280,Furniture,Momo,Desktop,Addtocart,21-04-2021
+CUST-24281,Prod_24281,Beauty,Momo,Desktop,Addtocart,03-03-2023
+CUST-24282,Prod_24282,Electronics,Visa Card,Desktop,Addtocart,25-07-2024
+CUST-24283,Prod_24283,Electronics,Momo,Mobile,Purchase,02-07-2023
+CUST-24284,Prod_24284,Hardware,Paypal,Mobile,Purchase,22-05-2022
+CUST-24285,Prod_24285,Beauty,Momo,Desktop,Addtocart,07-03-2025
+CUST-24286,Prod_24286,Books,Visa Card,Mobile,Addtocart,14-02-2025
+CUST-24287,Prod_24287,Clothes,Momo,Desktop,Addtocart,30-01-2021
+CUST-24288,Prod_24288,Accessories,Visa Card,Mobile,Addtocart,02-06-2022
+CUST-24289,Prod_24289,Electronics,Momo,Desktop,Purchase,04-11-2024
+CUST-24290,Prod_24290,Furniture,Paypal,Mobile,Addtocart,21-04-2023
+CUST-24291,Prod_24291,Furniture,Visa Card,Mobile,Addtocart,07-06-2024
+CUST-24292,Prod_24292,Beauty,Paypal,Mobile,Addtocart,16-03-2024
+CUST-24293,Prod_24293,Clothes,Paypal,Desktop,Addtocart,26-09-2021
+CUST-24294,Prod_24294,Books,Momo,Desktop,Addtocart,21-08-2023
+CUST-24295,Prod_24295,Furniture,Visa Card,Mobile,Addtocart,18-08-2023
+CUST-24296,Prod_24296,Hardware,Momo,Desktop,Addtocart,09-01-2025
+CUST-24297,Prod_24297,Beauty,Momo,Mobile,Addtocart,27-08-2023
+CUST-24298,Prod_24298,Beauty,Paypal,Desktop,Purchase,13-10-2022
+CUST-24299,Prod_24299,Beauty,Paypal,Desktop,Purchase,08-03-2023
+CUST-24300,Prod_24300,Accessories,Momo,Mobile,Purchase,03-05-2025
+CUST-24301,Prod_24301,Electronics,Visa Card,Desktop,Addtocart,29-05-2021
+CUST-24302,Prod_24302,Books,Momo,Desktop,Purchase,31-08-2021
+CUST-24303,Prod_24303,Clothes,Paypal,Mobile,Purchase,06-06-2023
+CUST-24304,Prod_24304,Hardware,Momo,Mobile,Purchase,22-06-2022
+CUST-24305,Prod_24305,Clothes,Paypal,Desktop,Purchase,13-08-2021
+CUST-24306,Prod_24306,Accessories,Paypal,Desktop,Purchase,28-12-2022
+CUST-24307,Prod_24307,Electronics,Visa Card,Desktop,Addtocart,22-02-2022
+CUST-24308,Prod_24308,Electronics,Momo,Desktop,Purchase,24-01-2023
+CUST-24309,Prod_24309,Furniture,Paypal,Desktop,Purchase,12-05-2020
+CUST-24310,Prod_24310,Books,Paypal,Desktop,Purchase,20-10-2024
+CUST-24311,Prod_24311,Furniture,Visa Card,Desktop,Addtocart,12-12-2023
+CUST-24312,Prod_24312,Books,Paypal,Desktop,Purchase,03-06-2022
+CUST-24313,Prod_24313,Electronics,Visa Card,Desktop,Purchase,05-01-2024
+CUST-24314,Prod_24314,Beauty,Momo,Desktop,Addtocart,03-01-2022
+CUST-24315,Prod_24315,Accessories,Momo,Desktop,Purchase,29-09-2024
+CUST-24316,Prod_24316,Hardware,Momo,Mobile,Addtocart,15-08-2024
+CUST-24317,Prod_24317,Beauty,Paypal,Mobile,Purchase,21-03-2024
+CUST-24318,Prod_24318,Clothes,Visa Card,Mobile,Purchase,06-03-2022
+CUST-24319,Prod_24319,Accessories,Visa Card,Desktop,Purchase,25-11-2020
+CUST-24320,Prod_24320,Hardware,Visa Card,Mobile,Addtocart,29-06-2022
+CUST-24321,Prod_24321,Hardware,Momo,Mobile,Addtocart,09-07-2021
+CUST-24322,Prod_24322,Furniture,Visa Card,Desktop,Addtocart,17-06-2020
+CUST-24323,Prod_24323,Accessories,Visa Card,Desktop,Addtocart,21-06-2022
+CUST-24324,Prod_24324,Beauty,Paypal,Mobile,Addtocart,05-09-2022
+CUST-24325,Prod_24325,Electronics,Paypal,Mobile,Addtocart,30-01-2021
+CUST-24326,Prod_24326,Books,Visa Card,Mobile,Purchase,03-05-2021
+CUST-24327,Prod_24327,Accessories,Momo,Mobile,Purchase,16-09-2023
+CUST-24328,Prod_24328,Furniture,Paypal,Desktop,Purchase,22-10-2022
+CUST-24329,Prod_24329,Clothes,Paypal,Desktop,Purchase,10-12-2024
+CUST-24330,Prod_24330,Books,Momo,Desktop,Addtocart,18-09-2021
+CUST-24331,Prod_24331,Furniture,Paypal,Mobile,Purchase,19-02-2023
+CUST-24332,Prod_24332,Accessories,Visa Card,Mobile,Addtocart,03-10-2022
+CUST-24333,Prod_24333,Books,Paypal,Desktop,Purchase,19-04-2024
+CUST-24334,Prod_24334,Hardware,Visa Card,Mobile,Purchase,07-09-2021
+CUST-24335,Prod_24335,Accessories,Paypal,Mobile,Purchase,19-05-2023
+CUST-24336,Prod_24336,Electronics,Paypal,Mobile,Addtocart,08-06-2023
+CUST-24337,Prod_24337,Books,Visa Card,Mobile,Purchase,25-07-2021
+CUST-24338,Prod_24338,Beauty,Visa Card,Mobile,Purchase,14-03-2024
+CUST-24339,Prod_24339,Books,Paypal,Mobile,Purchase,20-04-2025
+CUST-24340,Prod_24340,Beauty,Visa Card,Mobile,Addtocart,12-08-2024
+CUST-24341,Prod_24341,Electronics,Visa Card,Desktop,Addtocart,29-05-2023
+CUST-24342,Prod_24342,Furniture,Visa Card,Mobile,Addtocart,31-07-2020
+CUST-24343,Prod_24343,Furniture,Visa Card,Mobile,Addtocart,22-09-2020
+CUST-24344,Prod_24344,Hardware,Paypal,Mobile,Addtocart,23-07-2024
+CUST-24345,Prod_24345,Clothes,Visa Card,Desktop,Purchase,03-08-2024
+CUST-24346,Prod_24346,Hardware,Visa Card,Mobile,Addtocart,25-05-2020
+CUST-24347,Prod_24347,Electronics,Momo,Mobile,Purchase,22-05-2023
+CUST-24348,Prod_24348,Accessories,Visa Card,Desktop,Purchase,28-09-2021
+CUST-24349,Prod_24349,Hardware,Visa Card,Desktop,Addtocart,14-10-2020
+CUST-24350,Prod_24350,Furniture,Visa Card,Mobile,Addtocart,27-03-2023
+CUST-24351,Prod_24351,Hardware,Paypal,Mobile,Purchase,20-04-2023
+CUST-24352,Prod_24352,Books,Visa Card,Mobile,Addtocart,28-10-2021
+CUST-24353,Prod_24353,Accessories,Paypal,Mobile,Purchase,29-04-2025
+CUST-24354,Prod_24354,Electronics,Visa Card,Desktop,Addtocart,05-12-2020
+CUST-24355,Prod_24355,Books,Momo,Desktop,Purchase,20-06-2023
+CUST-24356,Prod_24356,Hardware,Paypal,Mobile,Addtocart,24-06-2022
+CUST-24357,Prod_24357,Books,Visa Card,Desktop,Addtocart,06-09-2022
+CUST-24358,Prod_24358,Hardware,Visa Card,Desktop,Purchase,03-07-2021
+CUST-24359,Prod_24359,Beauty,Momo,Desktop,Purchase,13-02-2025
+CUST-24360,Prod_24360,Accessories,Momo,Mobile,Purchase,17-12-2021
+CUST-24361,Prod_24361,Books,Momo,Mobile,Purchase,11-05-2023
+CUST-24362,Prod_24362,Books,Momo,Desktop,Addtocart,14-03-2022
+CUST-24363,Prod_24363,Accessories,Paypal,Mobile,Addtocart,08-03-2022
+CUST-24364,Prod_24364,Beauty,Visa Card,Mobile,Addtocart,01-02-2024
+CUST-24365,Prod_24365,Beauty,Paypal,Mobile,Purchase,14-10-2022
+CUST-24366,Prod_24366,Books,Visa Card,Desktop,Purchase,30-01-2025
+CUST-24367,Prod_24367,Furniture,Visa Card,Desktop,Purchase,24-01-2022
+CUST-24368,Prod_24368,Accessories,Momo,Desktop,Purchase,24-06-2022
+CUST-24369,Prod_24369,Books,Paypal,Desktop,Purchase,03-01-2024
+CUST-24370,Prod_24370,Clothes,Paypal,Mobile,Purchase,15-09-2021
+CUST-24371,Prod_24371,Hardware,Paypal,Desktop,Addtocart,15-04-2023
+CUST-24372,Prod_24372,Furniture,Visa Card,Desktop,Purchase,11-04-2021
+CUST-24373,Prod_24373,Accessories,Visa Card,Mobile,Addtocart,08-06-2024
+CUST-24374,Prod_24374,Clothes,Visa Card,Desktop,Purchase,21-08-2024
+CUST-24375,Prod_24375,Books,Visa Card,Mobile,Addtocart,06-12-2023
+CUST-24376,Prod_24376,Furniture,Visa Card,Mobile,Addtocart,02-03-2021
+CUST-24377,Prod_24377,Hardware,Visa Card,Mobile,Addtocart,22-05-2023
+CUST-24378,Prod_24378,Beauty,Visa Card,Mobile,Addtocart,08-02-2022
+CUST-24379,Prod_24379,Beauty,Visa Card,Mobile,Addtocart,04-12-2020
+CUST-24380,Prod_24380,Beauty,Momo,Mobile,Addtocart,21-10-2024
+CUST-24381,Prod_24381,Accessories,Momo,Desktop,Addtocart,02-09-2021
+CUST-24382,Prod_24382,Electronics,Momo,Mobile,Purchase,23-03-2022
+CUST-24383,Prod_24383,Hardware,Momo,Mobile,Addtocart,24-08-2021
+CUST-24384,Prod_24384,Beauty,Paypal,Mobile,Purchase,21-06-2022
+CUST-24385,Prod_24385,Beauty,Visa Card,Desktop,Purchase,26-08-2023
+CUST-24386,Prod_24386,Clothes,Momo,Desktop,Purchase,11-03-2023
+CUST-24387,Prod_24387,Furniture,Visa Card,Desktop,Addtocart,09-06-2021
+CUST-24388,Prod_24388,Beauty,Visa Card,Desktop,Purchase,25-01-2024
+CUST-24389,Prod_24389,Accessories,Momo,Mobile,Purchase,05-04-2021
+CUST-24390,Prod_24390,Beauty,Paypal,Desktop,Addtocart,08-07-2024
+CUST-24391,Prod_24391,Clothes,Paypal,Desktop,Purchase,03-04-2020
+CUST-24392,Prod_24392,Electronics,Paypal,Desktop,Addtocart,12-05-2020
+CUST-24393,Prod_24393,Beauty,Visa Card,Mobile,Purchase,24-11-2022
+CUST-24394,Prod_24394,Clothes,Paypal,Mobile,Purchase,16-01-2025
+CUST-24395,Prod_24395,Hardware,Paypal,Mobile,Addtocart,09-11-2024
+CUST-24396,Prod_24396,Accessories,Paypal,Desktop,Purchase,09-04-2025
+CUST-24397,Prod_24397,Clothes,Visa Card,Mobile,Purchase,27-12-2024
+CUST-24398,Prod_24398,Books,Visa Card,Desktop,Purchase,04-06-2023
+CUST-24399,Prod_24399,Electronics,Visa Card,Desktop,Addtocart,22-03-2020
+CUST-24400,Prod_24400,Furniture,Visa Card,Mobile,Addtocart,30-07-2022
+CUST-24401,Prod_24401,Furniture,Visa Card,Desktop,Addtocart,29-10-2023
+CUST-24402,Prod_24402,Clothes,Visa Card,Desktop,Addtocart,08-08-2020
+CUST-24403,Prod_24403,Furniture,Visa Card,Mobile,Addtocart,30-01-2020
+CUST-24404,Prod_24404,Hardware,Visa Card,Mobile,Purchase,21-06-2022
+CUST-24405,Prod_24405,Hardware,Paypal,Mobile,Purchase,09-09-2024
+CUST-24406,Prod_24406,Hardware,Paypal,Mobile,Addtocart,16-04-2025
+CUST-24407,Prod_24407,Clothes,Paypal,Mobile,Purchase,13-02-2025
+CUST-24408,Prod_24408,Accessories,Visa Card,Mobile,Purchase,21-09-2023
+CUST-24409,Prod_24409,Furniture,Paypal,Desktop,Addtocart,02-10-2024
+CUST-24410,Prod_24410,Clothes,Paypal,Mobile,Purchase,18-06-2024
+CUST-24411,Prod_24411,Hardware,Paypal,Mobile,Addtocart,30-11-2024
+CUST-24412,Prod_24412,Accessories,Paypal,Mobile,Purchase,21-02-2020
+CUST-24413,Prod_24413,Hardware,Paypal,Desktop,Addtocart,16-07-2024
+CUST-24414,Prod_24414,Accessories,Momo,Desktop,Purchase,28-04-2023
+CUST-24415,Prod_24415,Books,Paypal,Desktop,Purchase,13-04-2020
+CUST-24416,Prod_24416,Clothes,Visa Card,Mobile,Addtocart,11-02-2024
+CUST-24417,Prod_24417,Hardware,Paypal,Mobile,Purchase,24-09-2024
+CUST-24418,Prod_24418,Clothes,Visa Card,Desktop,Purchase,31-01-2021
+CUST-24419,Prod_24419,Furniture,Paypal,Mobile,Purchase,20-08-2020
+CUST-24420,Prod_24420,Books,Momo,Mobile,Addtocart,04-12-2021
+CUST-24421,Prod_24421,Beauty,Visa Card,Desktop,Addtocart,05-10-2020
+CUST-24422,Prod_24422,Accessories,Paypal,Mobile,Purchase,20-07-2023
+CUST-24423,Prod_24423,Clothes,Visa Card,Desktop,Purchase,08-05-2021
+CUST-24424,Prod_24424,Electronics,Paypal,Mobile,Addtocart,27-06-2022
+CUST-24425,Prod_24425,Clothes,Visa Card,Mobile,Addtocart,30-07-2020
+CUST-24426,Prod_24426,Electronics,Visa Card,Mobile,Purchase,25-06-2023
+CUST-24427,Prod_24427,Electronics,Momo,Desktop,Addtocart,20-08-2024
+CUST-24428,Prod_24428,Hardware,Visa Card,Desktop,Purchase,01-02-2022
+CUST-24429,Prod_24429,Books,Paypal,Desktop,Purchase,26-08-2020
+CUST-24430,Prod_24430,Beauty,Momo,Desktop,Addtocart,21-10-2022
+CUST-24431,Prod_24431,Books,Visa Card,Mobile,Purchase,15-11-2023
+CUST-24432,Prod_24432,Electronics,Momo,Desktop,Addtocart,30-07-2022
+CUST-24433,Prod_24433,Beauty,Paypal,Mobile,Addtocart,25-06-2020
+CUST-24434,Prod_24434,Beauty,Paypal,Desktop,Addtocart,19-06-2020
+CUST-24435,Prod_24435,Hardware,Momo,Mobile,Purchase,17-11-2020
+CUST-24436,Prod_24436,Hardware,Momo,Mobile,Purchase,12-08-2023
+CUST-24437,Prod_24437,Beauty,Momo,Desktop,Purchase,10-04-2024
+CUST-24438,Prod_24438,Furniture,Paypal,Mobile,Purchase,24-07-2023
+CUST-24439,Prod_24439,Furniture,Visa Card,Mobile,Addtocart,03-07-2021
+CUST-24440,Prod_24440,Clothes,Visa Card,Mobile,Purchase,21-07-2020
+CUST-24441,Prod_24441,Clothes,Paypal,Mobile,Purchase,20-10-2021
+CUST-24442,Prod_24442,Hardware,Visa Card,Desktop,Purchase,20-02-2023
+CUST-24443,Prod_24443,Books,Paypal,Desktop,Addtocart,29-11-2022
+CUST-24444,Prod_24444,Books,Momo,Mobile,Addtocart,28-07-2021
+CUST-24445,Prod_24445,Hardware,Visa Card,Desktop,Addtocart,16-11-2020
+CUST-24446,Prod_24446,Furniture,Paypal,Mobile,Purchase,16-12-2020
+CUST-24447,Prod_24447,Electronics,Visa Card,Desktop,Addtocart,19-04-2025
+CUST-24448,Prod_24448,Clothes,Visa Card,Desktop,Purchase,04-01-2025
+CUST-24449,Prod_24449,Beauty,Paypal,Mobile,Addtocart,20-02-2022
+CUST-24450,Prod_24450,Furniture,Visa Card,Desktop,Addtocart,24-03-2022
+CUST-24451,Prod_24451,Accessories,Visa Card,Desktop,Addtocart,06-02-2024
+CUST-24452,Prod_24452,Furniture,Visa Card,Mobile,Purchase,08-09-2020
+CUST-24453,Prod_24453,Books,Momo,Desktop,Addtocart,04-05-2025
+CUST-24454,Prod_24454,Electronics,Momo,Desktop,Purchase,26-11-2023
+CUST-24455,Prod_24455,Clothes,Paypal,Desktop,Purchase,04-10-2023
+CUST-24456,Prod_24456,Electronics,Momo,Mobile,Addtocart,31-03-2020
+CUST-24457,Prod_24457,Hardware,Momo,Desktop,Purchase,18-07-2022
+CUST-24458,Prod_24458,Furniture,Visa Card,Mobile,Purchase,18-03-2021
+CUST-24459,Prod_24459,Beauty,Visa Card,Desktop,Purchase,30-06-2020
+CUST-24460,Prod_24460,Books,Paypal,Mobile,Addtocart,01-10-2021
+CUST-24461,Prod_24461,Clothes,Paypal,Desktop,Addtocart,09-10-2021
+CUST-24462,Prod_24462,Books,Momo,Desktop,Addtocart,30-06-2022
+CUST-24463,Prod_24463,Clothes,Momo,Desktop,Addtocart,06-09-2021
+CUST-24464,Prod_24464,Accessories,Paypal,Mobile,Purchase,12-05-2024
+CUST-24465,Prod_24465,Books,Paypal,Mobile,Purchase,08-12-2021
+CUST-24466,Prod_24466,Accessories,Paypal,Mobile,Purchase,10-10-2020
+CUST-24467,Prod_24467,Hardware,Momo,Mobile,Addtocart,04-10-2023
+CUST-24468,Prod_24468,Hardware,Paypal,Desktop,Purchase,11-03-2023
+CUST-24469,Prod_24469,Accessories,Paypal,Desktop,Purchase,23-03-2024
+CUST-24470,Prod_24470,Beauty,Momo,Mobile,Addtocart,11-01-2025
+CUST-24471,Prod_24471,Hardware,Momo,Mobile,Purchase,24-06-2022
+CUST-24472,Prod_24472,Books,Paypal,Desktop,Purchase,02-02-2022
+CUST-24473,Prod_24473,Clothes,Visa Card,Desktop,Purchase,22-11-2022
+CUST-24474,Prod_24474,Accessories,Visa Card,Mobile,Addtocart,20-12-2023
+CUST-24475,Prod_24475,Beauty,Paypal,Mobile,Purchase,14-03-2021
+CUST-24476,Prod_24476,Books,Momo,Desktop,Addtocart,04-03-2020
+CUST-24477,Prod_24477,Clothes,Visa Card,Desktop,Purchase,18-03-2024
+CUST-24478,Prod_24478,Electronics,Momo,Desktop,Addtocart,09-11-2020
+CUST-24479,Prod_24479,Electronics,Paypal,Desktop,Purchase,13-12-2023
+CUST-24480,Prod_24480,Accessories,Momo,Mobile,Purchase,10-02-2025
+CUST-24481,Prod_24481,Clothes,Visa Card,Mobile,Addtocart,27-04-2023
+CUST-24482,Prod_24482,Furniture,Paypal,Mobile,Addtocart,14-01-2023
+CUST-24483,Prod_24483,Furniture,Visa Card,Mobile,Purchase,29-04-2024
+CUST-24484,Prod_24484,Hardware,Paypal,Desktop,Addtocart,16-12-2022
+CUST-24485,Prod_24485,Beauty,Momo,Mobile,Addtocart,16-01-2020
+CUST-24486,Prod_24486,Electronics,Paypal,Desktop,Addtocart,01-02-2025
+CUST-24487,Prod_24487,Books,Momo,Desktop,Purchase,01-01-2023
+CUST-24488,Prod_24488,Hardware,Visa Card,Mobile,Purchase,23-02-2024
+CUST-24489,Prod_24489,Accessories,Momo,Mobile,Purchase,21-10-2020
+CUST-24490,Prod_24490,Furniture,Momo,Desktop,Addtocart,30-09-2022
+CUST-24491,Prod_24491,Furniture,Momo,Desktop,Purchase,09-10-2024
+CUST-24492,Prod_24492,Books,Visa Card,Mobile,Purchase,12-12-2020
+CUST-24493,Prod_24493,Electronics,Momo,Desktop,Purchase,17-07-2022
+CUST-24494,Prod_24494,Accessories,Visa Card,Desktop,Purchase,29-10-2021
+CUST-24495,Prod_24495,Books,Momo,Mobile,Purchase,08-03-2025
+CUST-24496,Prod_24496,Accessories,Paypal,Desktop,Purchase,13-04-2022
+CUST-24497,Prod_24497,Hardware,Paypal,Desktop,Purchase,02-09-2024
+CUST-24498,Prod_24498,Furniture,Momo,Desktop,Purchase,10-04-2022
+CUST-24499,Prod_24499,Clothes,Paypal,Desktop,Purchase,11-11-2021
+CUST-24500,Prod_24500,Accessories,Visa Card,Mobile,Purchase,29-12-2022
+CUST-24501,Prod_24501,Beauty,Visa Card,Desktop,Purchase,06-04-2020
+CUST-24502,Prod_24502,Hardware,Visa Card,Mobile,Addtocart,01-03-2023
+CUST-24503,Prod_24503,Clothes,Visa Card,Desktop,Addtocart,10-04-2021
+CUST-24504,Prod_24504,Furniture,Paypal,Desktop,Addtocart,01-06-2020
+CUST-24505,Prod_24505,Accessories,Visa Card,Mobile,Purchase,27-02-2021
+CUST-24506,Prod_24506,Beauty,Visa Card,Desktop,Addtocart,22-04-2020
+CUST-24507,Prod_24507,Clothes,Visa Card,Desktop,Addtocart,01-12-2024
+CUST-24508,Prod_24508,Clothes,Momo,Mobile,Addtocart,02-07-2024
+CUST-24509,Prod_24509,Hardware,Momo,Mobile,Purchase,16-04-2021
+CUST-24510,Prod_24510,Hardware,Visa Card,Desktop,Purchase,01-10-2020
+CUST-24511,Prod_24511,Clothes,Visa Card,Mobile,Purchase,25-09-2022
+CUST-24512,Prod_24512,Electronics,Visa Card,Mobile,Purchase,21-02-2022
+CUST-24513,Prod_24513,Beauty,Momo,Mobile,Addtocart,06-11-2022
+CUST-24514,Prod_24514,Hardware,Visa Card,Mobile,Addtocart,12-07-2020
+CUST-24515,Prod_24515,Accessories,Momo,Desktop,Purchase,13-11-2020
+CUST-24516,Prod_24516,Clothes,Paypal,Mobile,Purchase,26-03-2021
+CUST-24517,Prod_24517,Electronics,Paypal,Desktop,Purchase,14-02-2020
+CUST-24518,Prod_24518,Electronics,Paypal,Desktop,Addtocart,15-09-2022
+CUST-24519,Prod_24519,Furniture,Visa Card,Mobile,Addtocart,10-02-2022
+CUST-24520,Prod_24520,Books,Momo,Desktop,Addtocart,22-09-2020
+CUST-24521,Prod_24521,Accessories,Paypal,Mobile,Purchase,26-03-2022
+CUST-24522,Prod_24522,Clothes,Visa Card,Desktop,Addtocart,16-04-2024
+CUST-24523,Prod_24523,Accessories,Momo,Desktop,Purchase,25-10-2024
+CUST-24524,Prod_24524,Hardware,Momo,Desktop,Purchase,08-02-2022
+CUST-24525,Prod_24525,Clothes,Visa Card,Mobile,Addtocart,16-07-2022
+CUST-24526,Prod_24526,Clothes,Paypal,Desktop,Purchase,26-04-2025
+CUST-24527,Prod_24527,Hardware,Momo,Mobile,Purchase,23-01-2023
+CUST-24528,Prod_24528,Furniture,Momo,Mobile,Addtocart,11-10-2020
+CUST-24529,Prod_24529,Hardware,Paypal,Desktop,Addtocart,02-10-2021
+CUST-24530,Prod_24530,Books,Paypal,Desktop,Purchase,23-02-2021
+CUST-24531,Prod_24531,Books,Visa Card,Desktop,Purchase,20-05-2021
+CUST-24532,Prod_24532,Books,Paypal,Mobile,Purchase,28-02-2020
+CUST-24533,Prod_24533,Clothes,Visa Card,Mobile,Addtocart,24-11-2024
+CUST-24534,Prod_24534,Hardware,Visa Card,Desktop,Purchase,21-04-2022
+CUST-24535,Prod_24535,Books,Visa Card,Desktop,Purchase,27-06-2022
+CUST-24536,Prod_24536,Beauty,Paypal,Mobile,Addtocart,15-06-2021
+CUST-24537,Prod_24537,Books,Momo,Mobile,Addtocart,18-08-2023
+CUST-24538,Prod_24538,Electronics,Visa Card,Mobile,Purchase,26-02-2020
+CUST-24539,Prod_24539,Hardware,Visa Card,Mobile,Purchase,02-07-2020
+CUST-24540,Prod_24540,Accessories,Paypal,Mobile,Addtocart,26-04-2025
+CUST-24541,Prod_24541,Books,Paypal,Desktop,Addtocart,19-07-2021
+CUST-24542,Prod_24542,Furniture,Momo,Desktop,Addtocart,05-02-2020
+CUST-24543,Prod_24543,Beauty,Paypal,Mobile,Addtocart,21-03-2024
+CUST-24544,Prod_24544,Furniture,Paypal,Mobile,Addtocart,21-07-2024
+CUST-24545,Prod_24545,Clothes,Paypal,Desktop,Purchase,22-01-2021
+CUST-24546,Prod_24546,Accessories,Paypal,Mobile,Addtocart,12-01-2022
+CUST-24547,Prod_24547,Beauty,Paypal,Mobile,Addtocart,30-10-2020
+CUST-24548,Prod_24548,Books,Visa Card,Desktop,Purchase,13-07-2022
+CUST-24549,Prod_24549,Clothes,Visa Card,Desktop,Purchase,18-07-2022
+CUST-24550,Prod_24550,Furniture,Paypal,Mobile,Purchase,12-07-2022
+CUST-24551,Prod_24551,Beauty,Momo,Mobile,Addtocart,14-06-2021
+CUST-24552,Prod_24552,Beauty,Paypal,Mobile,Addtocart,10-04-2024
+CUST-24553,Prod_24553,Clothes,Paypal,Mobile,Addtocart,03-10-2020
+CUST-24554,Prod_24554,Furniture,Visa Card,Desktop,Purchase,16-09-2024
+CUST-24555,Prod_24555,Clothes,Paypal,Mobile,Addtocart,09-01-2025
+CUST-24556,Prod_24556,Beauty,Momo,Desktop,Addtocart,07-07-2024
+CUST-24557,Prod_24557,Furniture,Momo,Mobile,Purchase,11-03-2022
+CUST-24558,Prod_24558,Beauty,Paypal,Desktop,Purchase,27-08-2024
+CUST-24559,Prod_24559,Hardware,Visa Card,Desktop,Addtocart,10-12-2020
+CUST-24560,Prod_24560,Accessories,Momo,Mobile,Purchase,20-02-2021
+CUST-24561,Prod_24561,Books,Paypal,Desktop,Purchase,11-02-2025
+CUST-24562,Prod_24562,Accessories,Paypal,Mobile,Addtocart,21-07-2024
+CUST-24563,Prod_24563,Books,Paypal,Desktop,Addtocart,25-10-2022
+CUST-24564,Prod_24564,Electronics,Paypal,Desktop,Addtocart,19-07-2022
+CUST-24565,Prod_24565,Clothes,Paypal,Desktop,Addtocart,25-01-2025
+CUST-24566,Prod_24566,Furniture,Momo,Desktop,Purchase,03-11-2024
+CUST-24567,Prod_24567,Beauty,Visa Card,Desktop,Purchase,12-12-2024
+CUST-24568,Prod_24568,Electronics,Paypal,Desktop,Addtocart,02-12-2021
+CUST-24569,Prod_24569,Books,Paypal,Mobile,Purchase,21-10-2023
+CUST-24570,Prod_24570,Clothes,Visa Card,Mobile,Addtocart,23-03-2024
+CUST-24571,Prod_24571,Clothes,Paypal,Desktop,Addtocart,03-10-2023
+CUST-24572,Prod_24572,Hardware,Visa Card,Desktop,Addtocart,11-02-2024
+CUST-24573,Prod_24573,Furniture,Paypal,Mobile,Purchase,17-11-2024
+CUST-24574,Prod_24574,Beauty,Momo,Desktop,Addtocart,26-04-2022
+CUST-24575,Prod_24575,Beauty,Momo,Mobile,Addtocart,28-04-2020
+CUST-24576,Prod_24576,Books,Momo,Mobile,Addtocart,28-10-2022
+CUST-24577,Prod_24577,Hardware,Momo,Desktop,Purchase,29-08-2021
+CUST-24578,Prod_24578,Hardware,Paypal,Mobile,Addtocart,27-01-2023
+CUST-24579,Prod_24579,Beauty,Momo,Desktop,Purchase,15-10-2024
+CUST-24580,Prod_24580,Books,Visa Card,Desktop,Addtocart,24-02-2024
+CUST-24581,Prod_24581,Hardware,Visa Card,Desktop,Addtocart,29-07-2020
+CUST-24582,Prod_24582,Books,Visa Card,Mobile,Addtocart,11-04-2020
+CUST-24583,Prod_24583,Furniture,Paypal,Mobile,Addtocart,01-12-2023
+CUST-24584,Prod_24584,Books,Visa Card,Mobile,Purchase,11-08-2023
+CUST-24585,Prod_24585,Beauty,Momo,Desktop,Purchase,27-12-2020
+CUST-24586,Prod_24586,Clothes,Momo,Desktop,Addtocart,30-06-2024
+CUST-24587,Prod_24587,Books,Visa Card,Mobile,Addtocart,11-06-2023
+CUST-24588,Prod_24588,Beauty,Paypal,Desktop,Purchase,30-06-2020
+CUST-24589,Prod_24589,Hardware,Visa Card,Desktop,Purchase,01-02-2025
+CUST-24590,Prod_24590,Clothes,Paypal,Mobile,Purchase,25-08-2023
+CUST-24591,Prod_24591,Hardware,Paypal,Desktop,Purchase,08-12-2022
+CUST-24592,Prod_24592,Furniture,Paypal,Desktop,Addtocart,12-02-2021
+CUST-24593,Prod_24593,Furniture,Paypal,Desktop,Purchase,20-12-2024
+CUST-24594,Prod_24594,Hardware,Visa Card,Desktop,Addtocart,24-04-2025
+CUST-24595,Prod_24595,Hardware,Paypal,Desktop,Addtocart,13-12-2022
+CUST-24596,Prod_24596,Beauty,Paypal,Desktop,Purchase,17-07-2020
+CUST-24597,Prod_24597,Electronics,Paypal,Desktop,Purchase,30-10-2022
+CUST-24598,Prod_24598,Books,Paypal,Desktop,Purchase,15-02-2023
+CUST-24599,Prod_24599,Accessories,Paypal,Desktop,Addtocart,26-10-2021
+CUST-24600,Prod_24600,Clothes,Momo,Mobile,Addtocart,12-04-2023
+CUST-24601,Prod_24601,Furniture,Paypal,Mobile,Purchase,19-09-2020
+CUST-24602,Prod_24602,Accessories,Paypal,Desktop,Purchase,09-12-2024
+CUST-24603,Prod_24603,Beauty,Momo,Desktop,Addtocart,20-08-2023
+CUST-24604,Prod_24604,Clothes,Visa Card,Desktop,Purchase,10-10-2024
+CUST-24605,Prod_24605,Hardware,Paypal,Mobile,Purchase,27-03-2025
+CUST-24606,Prod_24606,Beauty,Paypal,Desktop,Purchase,15-09-2024
+CUST-24607,Prod_24607,Clothes,Visa Card,Mobile,Addtocart,31-05-2024
+CUST-24608,Prod_24608,Hardware,Visa Card,Desktop,Addtocart,15-10-2022
+CUST-24609,Prod_24609,Accessories,Momo,Mobile,Purchase,04-01-2020
+CUST-24610,Prod_24610,Furniture,Momo,Desktop,Addtocart,24-12-2022
+CUST-24611,Prod_24611,Electronics,Momo,Mobile,Purchase,08-06-2024
+CUST-24612,Prod_24612,Clothes,Paypal,Desktop,Purchase,16-04-2022
+CUST-24613,Prod_24613,Accessories,Momo,Desktop,Addtocart,12-08-2021
+CUST-24614,Prod_24614,Furniture,Visa Card,Mobile,Purchase,07-08-2021
+CUST-24615,Prod_24615,Books,Momo,Desktop,Purchase,18-08-2020
+CUST-24616,Prod_24616,Accessories,Paypal,Desktop,Purchase,15-04-2020
+CUST-24617,Prod_24617,Books,Momo,Desktop,Purchase,23-01-2022
+CUST-24618,Prod_24618,Books,Paypal,Mobile,Purchase,29-08-2022
+CUST-24619,Prod_24619,Books,Visa Card,Desktop,Purchase,13-03-2023
+CUST-24620,Prod_24620,Books,Visa Card,Mobile,Addtocart,12-12-2021
+CUST-24621,Prod_24621,Clothes,Momo,Mobile,Addtocart,04-04-2024
+CUST-24622,Prod_24622,Electronics,Paypal,Desktop,Purchase,02-08-2022
+CUST-24623,Prod_24623,Hardware,Visa Card,Desktop,Purchase,01-07-2024
+CUST-24624,Prod_24624,Electronics,Momo,Desktop,Purchase,12-04-2020
+CUST-24625,Prod_24625,Furniture,Visa Card,Desktop,Addtocart,25-09-2022
+CUST-24626,Prod_24626,Books,Momo,Mobile,Purchase,21-02-2024
+CUST-24627,Prod_24627,Clothes,Momo,Desktop,Purchase,07-12-2021
+CUST-24628,Prod_24628,Books,Visa Card,Desktop,Addtocart,27-01-2024
+CUST-24629,Prod_24629,Electronics,Visa Card,Mobile,Purchase,25-10-2020
+CUST-24630,Prod_24630,Furniture,Momo,Desktop,Addtocart,06-10-2021
+CUST-24631,Prod_24631,Clothes,Momo,Desktop,Purchase,29-07-2024
+CUST-24632,Prod_24632,Electronics,Paypal,Mobile,Addtocart,16-09-2023
+CUST-24633,Prod_24633,Hardware,Momo,Desktop,Purchase,12-01-2023
+CUST-24634,Prod_24634,Clothes,Momo,Mobile,Purchase,16-04-2025
+CUST-24635,Prod_24635,Electronics,Visa Card,Mobile,Addtocart,17-06-2021
+CUST-24636,Prod_24636,Electronics,Momo,Mobile,Addtocart,26-03-2020
+CUST-24637,Prod_24637,Hardware,Paypal,Desktop,Purchase,06-03-2022
+CUST-24638,Prod_24638,Hardware,Paypal,Desktop,Purchase,27-10-2020
+CUST-24639,Prod_24639,Beauty,Paypal,Desktop,Purchase,25-10-2023
+CUST-24640,Prod_24640,Books,Momo,Mobile,Addtocart,02-05-2022
+CUST-24641,Prod_24641,Books,Momo,Mobile,Purchase,27-04-2025
+CUST-24642,Prod_24642,Books,Paypal,Desktop,Addtocart,30-06-2023
+CUST-24643,Prod_24643,Electronics,Visa Card,Desktop,Addtocart,07-03-2020
+CUST-24644,Prod_24644,Clothes,Paypal,Desktop,Addtocart,27-05-2022
+CUST-24645,Prod_24645,Books,Momo,Desktop,Purchase,25-02-2020
+CUST-24646,Prod_24646,Books,Visa Card,Desktop,Purchase,08-11-2020
+CUST-24647,Prod_24647,Accessories,Visa Card,Desktop,Addtocart,04-03-2021
+CUST-24648,Prod_24648,Books,Paypal,Desktop,Addtocart,08-08-2024
+CUST-24649,Prod_24649,Electronics,Visa Card,Mobile,Addtocart,21-10-2023
+CUST-24650,Prod_24650,Electronics,Momo,Mobile,Addtocart,10-03-2020
+CUST-24651,Prod_24651,Books,Visa Card,Mobile,Purchase,10-01-2022
+CUST-24652,Prod_24652,Accessories,Visa Card,Mobile,Addtocart,04-09-2022
+CUST-24653,Prod_24653,Clothes,Visa Card,Mobile,Addtocart,03-05-2021
+CUST-24654,Prod_24654,Books,Momo,Mobile,Addtocart,02-07-2021
+CUST-24655,Prod_24655,Books,Visa Card,Desktop,Addtocart,01-12-2021
+CUST-24656,Prod_24656,Electronics,Paypal,Desktop,Purchase,06-04-2025
+CUST-24657,Prod_24657,Accessories,Momo,Mobile,Purchase,18-02-2024
+CUST-24658,Prod_24658,Furniture,Momo,Mobile,Purchase,24-10-2024
+CUST-24659,Prod_24659,Hardware,Visa Card,Desktop,Purchase,28-07-2022
+CUST-24660,Prod_24660,Accessories,Momo,Desktop,Addtocart,29-08-2020
+CUST-24661,Prod_24661,Electronics,Paypal,Desktop,Addtocart,02-10-2024
+CUST-24662,Prod_24662,Electronics,Momo,Mobile,Purchase,03-09-2020
+CUST-24663,Prod_24663,Accessories,Visa Card,Mobile,Addtocart,11-03-2024
+CUST-24664,Prod_24664,Hardware,Paypal,Mobile,Purchase,20-02-2022
+CUST-24665,Prod_24665,Books,Momo,Desktop,Purchase,13-04-2020
+CUST-24666,Prod_24666,Books,Momo,Mobile,Purchase,28-09-2021
+CUST-24667,Prod_24667,Clothes,Visa Card,Desktop,Addtocart,15-04-2021
+CUST-24668,Prod_24668,Furniture,Paypal,Desktop,Purchase,23-08-2024
+CUST-24669,Prod_24669,Books,Paypal,Mobile,Purchase,13-02-2023
+CUST-24670,Prod_24670,Clothes,Paypal,Mobile,Addtocart,17-02-2023
+CUST-24671,Prod_24671,Hardware,Paypal,Mobile,Purchase,28-06-2023
+CUST-24672,Prod_24672,Accessories,Paypal,Desktop,Addtocart,29-01-2021
+CUST-24673,Prod_24673,Beauty,Visa Card,Mobile,Purchase,07-10-2020
+CUST-24674,Prod_24674,Furniture,Visa Card,Mobile,Addtocart,20-07-2021
+CUST-24675,Prod_24675,Beauty,Paypal,Desktop,Purchase,03-02-2023
+CUST-24676,Prod_24676,Clothes,Paypal,Desktop,Addtocart,30-05-2022
+CUST-24677,Prod_24677,Beauty,Visa Card,Mobile,Purchase,10-06-2020
+CUST-24678,Prod_24678,Hardware,Momo,Mobile,Purchase,31-10-2021
+CUST-24679,Prod_24679,Books,Paypal,Mobile,Addtocart,29-12-2022
+CUST-24680,Prod_24680,Accessories,Visa Card,Desktop,Purchase,20-01-2023
+CUST-24681,Prod_24681,Beauty,Visa Card,Mobile,Addtocart,26-12-2021
+CUST-24682,Prod_24682,Furniture,Visa Card,Desktop,Purchase,15-02-2023
+CUST-24683,Prod_24683,Electronics,Momo,Desktop,Addtocart,21-04-2022
+CUST-24684,Prod_24684,Electronics,Paypal,Desktop,Addtocart,30-04-2023
+CUST-24685,Prod_24685,Hardware,Paypal,Mobile,Addtocart,05-01-2020
+CUST-24686,Prod_24686,Accessories,Visa Card,Desktop,Purchase,28-07-2020
+CUST-24687,Prod_24687,Accessories,Paypal,Desktop,Purchase,09-12-2024
+CUST-24688,Prod_24688,Beauty,Momo,Mobile,Purchase,18-07-2020
+CUST-24689,Prod_24689,Beauty,Visa Card,Mobile,Purchase,20-04-2024
+CUST-24690,Prod_24690,Clothes,Paypal,Mobile,Addtocart,28-02-2024
+CUST-24691,Prod_24691,Books,Visa Card,Mobile,Addtocart,20-12-2024
+CUST-24692,Prod_24692,Beauty,Paypal,Mobile,Addtocart,23-02-2020
+CUST-24693,Prod_24693,Hardware,Paypal,Mobile,Purchase,01-09-2023
+CUST-24694,Prod_24694,Books,Paypal,Mobile,Purchase,04-08-2024
+CUST-24695,Prod_24695,Beauty,Visa Card,Mobile,Purchase,10-08-2021
+CUST-24696,Prod_24696,Beauty,Paypal,Mobile,Purchase,03-10-2020
+CUST-24697,Prod_24697,Clothes,Momo,Mobile,Addtocart,06-11-2024
+CUST-24698,Prod_24698,Accessories,Momo,Desktop,Purchase,25-11-2020
+CUST-24699,Prod_24699,Electronics,Momo,Desktop,Addtocart,13-01-2023
+CUST-24700,Prod_24700,Electronics,Visa Card,Mobile,Purchase,22-12-2020
+CUST-24701,Prod_24701,Accessories,Momo,Desktop,Purchase,20-09-2020
+CUST-24702,Prod_24702,Hardware,Paypal,Mobile,Purchase,16-08-2024
+CUST-24703,Prod_24703,Furniture,Paypal,Desktop,Addtocart,08-08-2021
+CUST-24704,Prod_24704,Hardware,Paypal,Mobile,Purchase,14-04-2024
+CUST-24705,Prod_24705,Electronics,Visa Card,Desktop,Addtocart,08-01-2022
+CUST-24706,Prod_24706,Books,Visa Card,Desktop,Addtocart,14-02-2023
+CUST-24707,Prod_24707,Accessories,Momo,Mobile,Addtocart,02-10-2023
+CUST-24708,Prod_24708,Books,Visa Card,Mobile,Purchase,11-02-2024
+CUST-24709,Prod_24709,Beauty,Paypal,Desktop,Addtocart,31-01-2022
+CUST-24710,Prod_24710,Beauty,Visa Card,Mobile,Addtocart,24-06-2024
+CUST-24711,Prod_24711,Furniture,Visa Card,Mobile,Addtocart,16-12-2021
+CUST-24712,Prod_24712,Beauty,Momo,Desktop,Purchase,04-06-2021
+CUST-24713,Prod_24713,Accessories,Momo,Desktop,Purchase,19-06-2024
+CUST-24714,Prod_24714,Electronics,Momo,Desktop,Addtocart,27-03-2023
+CUST-24715,Prod_24715,Furniture,Paypal,Desktop,Purchase,12-11-2020
+CUST-24716,Prod_24716,Furniture,Paypal,Desktop,Purchase,26-07-2022
+CUST-24717,Prod_24717,Clothes,Paypal,Mobile,Addtocart,18-03-2024
+CUST-24718,Prod_24718,Accessories,Visa Card,Mobile,Addtocart,10-09-2024
+CUST-24719,Prod_24719,Clothes,Momo,Mobile,Purchase,26-01-2023
+CUST-24720,Prod_24720,Clothes,Visa Card,Desktop,Purchase,31-07-2022
+CUST-24721,Prod_24721,Electronics,Momo,Desktop,Purchase,01-08-2022
+CUST-24722,Prod_24722,Electronics,Paypal,Desktop,Addtocart,02-11-2020
+CUST-24723,Prod_24723,Electronics,Paypal,Desktop,Addtocart,02-04-2023
+CUST-24724,Prod_24724,Hardware,Paypal,Desktop,Purchase,02-12-2023
+CUST-24725,Prod_24725,Electronics,Visa Card,Mobile,Purchase,30-12-2020
+CUST-24726,Prod_24726,Furniture,Momo,Mobile,Purchase,12-08-2024
+CUST-24727,Prod_24727,Accessories,Visa Card,Mobile,Addtocart,20-03-2020
+CUST-24728,Prod_24728,Electronics,Visa Card,Desktop,Addtocart,18-04-2025
+CUST-24729,Prod_24729,Books,Momo,Desktop,Addtocart,12-04-2021
+CUST-24730,Prod_24730,Accessories,Momo,Mobile,Addtocart,31-03-2020
+CUST-24731,Prod_24731,Hardware,Visa Card,Mobile,Addtocart,03-06-2021
+CUST-24732,Prod_24732,Furniture,Momo,Desktop,Addtocart,08-03-2020
+CUST-24733,Prod_24733,Electronics,Visa Card,Desktop,Addtocart,15-10-2023
+CUST-24734,Prod_24734,Furniture,Visa Card,Desktop,Addtocart,29-07-2022
+CUST-24735,Prod_24735,Beauty,Visa Card,Desktop,Purchase,29-11-2024
+CUST-24736,Prod_24736,Furniture,Momo,Desktop,Addtocart,04-05-2021
+CUST-24737,Prod_24737,Beauty,Paypal,Mobile,Addtocart,30-06-2024
+CUST-24738,Prod_24738,Beauty,Paypal,Mobile,Purchase,17-01-2020
+CUST-24739,Prod_24739,Clothes,Paypal,Mobile,Addtocart,06-01-2022
+CUST-24740,Prod_24740,Accessories,Momo,Desktop,Purchase,18-05-2022
+CUST-24741,Prod_24741,Electronics,Visa Card,Desktop,Purchase,01-10-2022
+CUST-24742,Prod_24742,Accessories,Paypal,Desktop,Purchase,29-07-2022
+CUST-24743,Prod_24743,Hardware,Momo,Desktop,Purchase,16-07-2020
+CUST-24744,Prod_24744,Clothes,Momo,Desktop,Purchase,28-03-2024
+CUST-24745,Prod_24745,Clothes,Paypal,Desktop,Purchase,15-06-2020
+CUST-24746,Prod_24746,Clothes,Momo,Desktop,Addtocart,03-03-2023
+CUST-24747,Prod_24747,Beauty,Paypal,Mobile,Addtocart,07-02-2025
+CUST-24748,Prod_24748,Books,Paypal,Mobile,Purchase,19-09-2023
+CUST-24749,Prod_24749,Hardware,Visa Card,Mobile,Addtocart,09-04-2025
+CUST-24750,Prod_24750,Electronics,Visa Card,Mobile,Addtocart,14-04-2025
+CUST-24751,Prod_24751,Furniture,Momo,Mobile,Addtocart,08-10-2024
+CUST-24752,Prod_24752,Furniture,Visa Card,Mobile,Purchase,26-08-2020
+CUST-24753,Prod_24753,Books,Visa Card,Desktop,Purchase,10-11-2022
+CUST-24754,Prod_24754,Electronics,Momo,Desktop,Purchase,02-03-2022
+CUST-24755,Prod_24755,Beauty,Momo,Desktop,Addtocart,23-08-2023
+CUST-24756,Prod_24756,Accessories,Visa Card,Desktop,Purchase,03-02-2024
+CUST-24757,Prod_24757,Furniture,Visa Card,Mobile,Purchase,06-04-2023
+CUST-24758,Prod_24758,Clothes,Visa Card,Mobile,Purchase,20-10-2020
+CUST-24759,Prod_24759,Books,Momo,Desktop,Purchase,06-06-2023
+CUST-24760,Prod_24760,Accessories,Paypal,Desktop,Addtocart,04-02-2024
+CUST-24761,Prod_24761,Furniture,Momo,Mobile,Addtocart,18-04-2023
+CUST-24762,Prod_24762,Hardware,Momo,Mobile,Addtocart,27-10-2021
+CUST-24763,Prod_24763,Electronics,Paypal,Desktop,Purchase,23-11-2021
+CUST-24764,Prod_24764,Beauty,Visa Card,Desktop,Purchase,06-02-2024
+CUST-24765,Prod_24765,Furniture,Paypal,Desktop,Addtocart,01-02-2020
+CUST-24766,Prod_24766,Hardware,Paypal,Mobile,Purchase,17-10-2023
+CUST-24767,Prod_24767,Clothes,Momo,Desktop,Addtocart,24-07-2023
+CUST-24768,Prod_24768,Hardware,Paypal,Desktop,Addtocart,29-08-2021
+CUST-24769,Prod_24769,Beauty,Paypal,Desktop,Purchase,05-08-2024
+CUST-24770,Prod_24770,Clothes,Paypal,Desktop,Purchase,27-03-2021
+CUST-24771,Prod_24771,Furniture,Visa Card,Mobile,Addtocart,17-11-2022
+CUST-24772,Prod_24772,Beauty,Visa Card,Mobile,Purchase,08-04-2020
+CUST-24773,Prod_24773,Clothes,Visa Card,Mobile,Purchase,02-02-2022
+CUST-24774,Prod_24774,Clothes,Visa Card,Mobile,Addtocart,23-12-2023
+CUST-24775,Prod_24775,Clothes,Momo,Desktop,Purchase,17-10-2022
+CUST-24776,Prod_24776,Clothes,Visa Card,Desktop,Purchase,03-10-2021
+CUST-24777,Prod_24777,Hardware,Visa Card,Mobile,Purchase,09-07-2020
+CUST-24778,Prod_24778,Books,Paypal,Desktop,Addtocart,04-05-2023
+CUST-24779,Prod_24779,Hardware,Momo,Mobile,Purchase,26-04-2025
+CUST-24780,Prod_24780,Furniture,Momo,Mobile,Addtocart,19-05-2024
+CUST-24781,Prod_24781,Books,Visa Card,Desktop,Addtocart,25-06-2023
+CUST-24782,Prod_24782,Electronics,Paypal,Mobile,Purchase,19-04-2020
+CUST-24783,Prod_24783,Hardware,Momo,Desktop,Addtocart,25-12-2021
+CUST-24784,Prod_24784,Books,Paypal,Mobile,Purchase,09-08-2021
+CUST-24785,Prod_24785,Beauty,Paypal,Mobile,Addtocart,19-06-2024
+CUST-24786,Prod_24786,Electronics,Paypal,Mobile,Purchase,03-03-2024
+CUST-24787,Prod_24787,Electronics,Paypal,Desktop,Purchase,08-01-2023
+CUST-24788,Prod_24788,Books,Visa Card,Desktop,Addtocart,13-11-2020
+CUST-24789,Prod_24789,Clothes,Visa Card,Desktop,Addtocart,16-08-2024
+CUST-24790,Prod_24790,Clothes,Visa Card,Desktop,Purchase,09-03-2025
+CUST-24791,Prod_24791,Furniture,Paypal,Desktop,Addtocart,26-02-2025
+CUST-24792,Prod_24792,Accessories,Momo,Desktop,Purchase,20-06-2022
+CUST-24793,Prod_24793,Accessories,Paypal,Mobile,Addtocart,06-06-2024
+CUST-24794,Prod_24794,Accessories,Visa Card,Desktop,Addtocart,07-06-2022
+CUST-24795,Prod_24795,Furniture,Paypal,Mobile,Addtocart,11-08-2022
+CUST-24796,Prod_24796,Electronics,Visa Card,Desktop,Purchase,19-04-2021
+CUST-24797,Prod_24797,Furniture,Paypal,Mobile,Addtocart,24-03-2021
+CUST-24798,Prod_24798,Books,Visa Card,Desktop,Addtocart,07-10-2021
+CUST-24799,Prod_24799,Books,Paypal,Mobile,Addtocart,25-05-2023
+CUST-24800,Prod_24800,Furniture,Momo,Mobile,Purchase,06-03-2024
+CUST-24801,Prod_24801,Accessories,Paypal,Mobile,Addtocart,24-04-2023
+CUST-24802,Prod_24802,Furniture,Momo,Mobile,Addtocart,23-10-2024
+CUST-24803,Prod_24803,Hardware,Visa Card,Mobile,Purchase,20-05-2023
+CUST-24804,Prod_24804,Hardware,Visa Card,Mobile,Addtocart,26-03-2021
+CUST-24805,Prod_24805,Beauty,Momo,Desktop,Addtocart,13-04-2022
+CUST-24806,Prod_24806,Accessories,Visa Card,Mobile,Addtocart,22-10-2022
+CUST-24807,Prod_24807,Books,Visa Card,Desktop,Addtocart,08-08-2022
+CUST-24808,Prod_24808,Clothes,Visa Card,Desktop,Purchase,14-05-2023
+CUST-24809,Prod_24809,Beauty,Momo,Desktop,Addtocart,01-06-2024
+CUST-24810,Prod_24810,Furniture,Visa Card,Desktop,Purchase,11-08-2021
+CUST-24811,Prod_24811,Furniture,Paypal,Mobile,Addtocart,16-11-2023
+CUST-24812,Prod_24812,Books,Paypal,Mobile,Addtocart,26-09-2023
+CUST-24813,Prod_24813,Hardware,Visa Card,Desktop,Addtocart,15-05-2020
+CUST-24814,Prod_24814,Furniture,Paypal,Desktop,Addtocart,08-11-2021
+CUST-24815,Prod_24815,Electronics,Paypal,Desktop,Addtocart,13-03-2024
+CUST-24816,Prod_24816,Beauty,Paypal,Mobile,Addtocart,18-02-2023
+CUST-24817,Prod_24817,Beauty,Paypal,Desktop,Purchase,13-07-2024
+CUST-24818,Prod_24818,Accessories,Momo,Desktop,Purchase,09-02-2020
+CUST-24819,Prod_24819,Accessories,Momo,Mobile,Addtocart,21-11-2022
+CUST-24820,Prod_24820,Hardware,Visa Card,Mobile,Addtocart,18-07-2023
+CUST-24821,Prod_24821,Accessories,Visa Card,Mobile,Purchase,30-08-2020
+CUST-24822,Prod_24822,Clothes,Visa Card,Desktop,Purchase,23-01-2020
+CUST-24823,Prod_24823,Books,Visa Card,Mobile,Purchase,05-02-2021
+CUST-24824,Prod_24824,Accessories,Momo,Mobile,Addtocart,11-07-2022
+CUST-24825,Prod_24825,Beauty,Paypal,Mobile,Purchase,20-03-2025
+CUST-24826,Prod_24826,Accessories,Paypal,Desktop,Addtocart,19-07-2022
+CUST-24827,Prod_24827,Accessories,Paypal,Mobile,Addtocart,14-04-2020
+CUST-24828,Prod_24828,Furniture,Paypal,Desktop,Purchase,13-10-2020
+CUST-24829,Prod_24829,Electronics,Visa Card,Desktop,Addtocart,18-05-2020
+CUST-24830,Prod_24830,Clothes,Momo,Mobile,Purchase,07-10-2023
+CUST-24831,Prod_24831,Furniture,Momo,Mobile,Addtocart,04-02-2025
+CUST-24832,Prod_24832,Books,Paypal,Mobile,Addtocart,24-04-2025
+CUST-24833,Prod_24833,Clothes,Visa Card,Mobile,Addtocart,08-07-2023
+CUST-24834,Prod_24834,Hardware,Paypal,Mobile,Addtocart,07-09-2024
+CUST-24835,Prod_24835,Books,Paypal,Desktop,Purchase,01-03-2024
+CUST-24836,Prod_24836,Beauty,Visa Card,Desktop,Addtocart,02-08-2022
+CUST-24837,Prod_24837,Hardware,Paypal,Desktop,Purchase,03-07-2023
+CUST-24838,Prod_24838,Clothes,Paypal,Desktop,Purchase,04-08-2024
+CUST-24839,Prod_24839,Beauty,Paypal,Mobile,Purchase,22-03-2022
+CUST-24840,Prod_24840,Hardware,Momo,Mobile,Addtocart,06-11-2020
+CUST-24841,Prod_24841,Electronics,Momo,Mobile,Addtocart,02-11-2021
+CUST-24842,Prod_24842,Electronics,Momo,Desktop,Purchase,24-08-2021
+CUST-24843,Prod_24843,Hardware,Paypal,Desktop,Addtocart,03-02-2024
+CUST-24844,Prod_24844,Hardware,Visa Card,Desktop,Addtocart,15-03-2023
+CUST-24845,Prod_24845,Hardware,Momo,Desktop,Purchase,30-07-2021
+CUST-24846,Prod_24846,Electronics,Visa Card,Mobile,Purchase,01-11-2022
+CUST-24847,Prod_24847,Clothes,Momo,Mobile,Purchase,03-11-2023
+CUST-24848,Prod_24848,Furniture,Visa Card,Mobile,Addtocart,25-01-2025
+CUST-24849,Prod_24849,Books,Visa Card,Mobile,Addtocart,17-02-2025
+CUST-24850,Prod_24850,Furniture,Paypal,Desktop,Addtocart,02-07-2020
+CUST-24851,Prod_24851,Electronics,Paypal,Mobile,Purchase,10-12-2020
+CUST-24852,Prod_24852,Electronics,Momo,Desktop,Purchase,31-08-2022
+CUST-24853,Prod_24853,Furniture,Visa Card,Mobile,Addtocart,29-08-2020
+CUST-24854,Prod_24854,Beauty,Visa Card,Desktop,Addtocart,01-11-2023
+CUST-24855,Prod_24855,Electronics,Visa Card,Mobile,Addtocart,18-02-2024
+CUST-24856,Prod_24856,Furniture,Momo,Mobile,Addtocart,08-04-2024
+CUST-24857,Prod_24857,Clothes,Momo,Mobile,Purchase,24-08-2023
+CUST-24858,Prod_24858,Beauty,Momo,Desktop,Addtocart,07-06-2024
+CUST-24859,Prod_24859,Hardware,Visa Card,Desktop,Addtocart,06-01-2022
+CUST-24860,Prod_24860,Furniture,Paypal,Desktop,Addtocart,13-12-2022
+CUST-24861,Prod_24861,Clothes,Visa Card,Desktop,Addtocart,18-03-2023
+CUST-24862,Prod_24862,Beauty,Momo,Desktop,Purchase,06-10-2023
+CUST-24863,Prod_24863,Beauty,Paypal,Mobile,Addtocart,06-07-2023
+CUST-24864,Prod_24864,Furniture,Paypal,Mobile,Addtocart,08-07-2020
+CUST-24865,Prod_24865,Clothes,Momo,Mobile,Purchase,09-03-2022
+CUST-24866,Prod_24866,Furniture,Momo,Desktop,Purchase,01-12-2022
+CUST-24867,Prod_24867,Electronics,Visa Card,Mobile,Addtocart,20-11-2020
+CUST-24868,Prod_24868,Books,Visa Card,Desktop,Addtocart,10-01-2020
+CUST-24869,Prod_24869,Electronics,Paypal,Mobile,Purchase,14-01-2022
+CUST-24870,Prod_24870,Accessories,Paypal,Mobile,Addtocart,24-07-2021
+CUST-24871,Prod_24871,Furniture,Visa Card,Desktop,Purchase,26-01-2022
+CUST-24872,Prod_24872,Clothes,Visa Card,Mobile,Addtocart,05-01-2024
+CUST-24873,Prod_24873,Hardware,Visa Card,Desktop,Addtocart,11-06-2024
+CUST-24874,Prod_24874,Clothes,Visa Card,Desktop,Purchase,23-12-2023
+CUST-24875,Prod_24875,Hardware,Momo,Mobile,Addtocart,20-01-2021
+CUST-24876,Prod_24876,Clothes,Momo,Mobile,Addtocart,26-06-2020
+CUST-24877,Prod_24877,Hardware,Paypal,Mobile,Addtocart,01-12-2022
+CUST-24878,Prod_24878,Electronics,Paypal,Mobile,Addtocart,30-04-2022
+CUST-24879,Prod_24879,Hardware,Momo,Desktop,Addtocart,02-10-2020
+CUST-24880,Prod_24880,Furniture,Momo,Desktop,Purchase,09-03-2025
+CUST-24881,Prod_24881,Electronics,Momo,Mobile,Addtocart,16-06-2024
+CUST-24882,Prod_24882,Clothes,Paypal,Mobile,Purchase,29-05-2020
+CUST-24883,Prod_24883,Electronics,Momo,Desktop,Purchase,06-03-2021
+CUST-24884,Prod_24884,Hardware,Momo,Mobile,Addtocart,02-08-2022
+CUST-24885,Prod_24885,Electronics,Visa Card,Mobile,Purchase,14-08-2021
+CUST-24886,Prod_24886,Books,Visa Card,Desktop,Addtocart,18-03-2021
+CUST-24887,Prod_24887,Beauty,Paypal,Desktop,Purchase,21-10-2024
+CUST-24888,Prod_24888,Furniture,Paypal,Desktop,Purchase,02-06-2020
+CUST-24889,Prod_24889,Clothes,Momo,Desktop,Purchase,09-06-2024
+CUST-24890,Prod_24890,Books,Paypal,Mobile,Addtocart,27-01-2024
+CUST-24891,Prod_24891,Hardware,Visa Card,Desktop,Purchase,04-01-2020
+CUST-24892,Prod_24892,Electronics,Momo,Mobile,Addtocart,30-05-2023
+CUST-24893,Prod_24893,Electronics,Visa Card,Mobile,Addtocart,05-10-2023
+CUST-24894,Prod_24894,Clothes,Momo,Desktop,Purchase,29-10-2021
+CUST-24895,Prod_24895,Clothes,Momo,Mobile,Addtocart,12-09-2023
+CUST-24896,Prod_24896,Hardware,Momo,Mobile,Purchase,14-10-2023
+CUST-24897,Prod_24897,Beauty,Paypal,Desktop,Addtocart,14-07-2022
+CUST-24898,Prod_24898,Beauty,Visa Card,Mobile,Addtocart,27-03-2024
+CUST-24899,Prod_24899,Furniture,Paypal,Mobile,Addtocart,23-02-2023
+CUST-24900,Prod_24900,Furniture,Paypal,Desktop,Addtocart,15-02-2025
+CUST-24901,Prod_24901,Beauty,Visa Card,Mobile,Addtocart,06-06-2022
+CUST-24902,Prod_24902,Hardware,Visa Card,Desktop,Purchase,02-11-2022
+CUST-24903,Prod_24903,Electronics,Visa Card,Mobile,Addtocart,10-07-2020
+CUST-24904,Prod_24904,Furniture,Paypal,Mobile,Purchase,14-05-2022
+CUST-24905,Prod_24905,Furniture,Visa Card,Desktop,Addtocart,14-06-2024
+CUST-24906,Prod_24906,Hardware,Momo,Desktop,Addtocart,05-07-2022
+CUST-24907,Prod_24907,Electronics,Paypal,Desktop,Addtocart,08-05-2022
+CUST-24908,Prod_24908,Furniture,Momo,Mobile,Addtocart,16-09-2022
+CUST-24909,Prod_24909,Furniture,Momo,Desktop,Purchase,08-03-2021
+CUST-24910,Prod_24910,Accessories,Paypal,Mobile,Addtocart,26-03-2022
+CUST-24911,Prod_24911,Furniture,Momo,Mobile,Purchase,23-06-2022
+CUST-24912,Prod_24912,Hardware,Visa Card,Desktop,Purchase,07-12-2020
+CUST-24913,Prod_24913,Furniture,Visa Card,Mobile,Purchase,19-07-2022
+CUST-24914,Prod_24914,Hardware,Visa Card,Mobile,Addtocart,30-04-2020
+CUST-24915,Prod_24915,Furniture,Momo,Desktop,Addtocart,26-03-2023
+CUST-24916,Prod_24916,Hardware,Momo,Desktop,Purchase,13-12-2020
+CUST-24917,Prod_24917,Books,Visa Card,Mobile,Addtocart,29-01-2024
+CUST-24918,Prod_24918,Hardware,Momo,Mobile,Addtocart,06-03-2024
+CUST-24919,Prod_24919,Hardware,Paypal,Desktop,Addtocart,25-12-2022
+CUST-24920,Prod_24920,Accessories,Visa Card,Desktop,Purchase,12-05-2024
+CUST-24921,Prod_24921,Accessories,Momo,Desktop,Purchase,05-11-2024
+CUST-24922,Prod_24922,Furniture,Momo,Desktop,Addtocart,09-06-2021
+CUST-24923,Prod_24923,Beauty,Momo,Desktop,Addtocart,30-01-2021
+CUST-24924,Prod_24924,Books,Paypal,Mobile,Addtocart,04-07-2022
+CUST-24925,Prod_24925,Clothes,Visa Card,Mobile,Purchase,25-10-2024
+CUST-24926,Prod_24926,Books,Visa Card,Mobile,Addtocart,02-06-2020
+CUST-24927,Prod_24927,Furniture,Visa Card,Mobile,Addtocart,31-01-2020
+CUST-24928,Prod_24928,Electronics,Visa Card,Mobile,Purchase,05-10-2020
+CUST-24929,Prod_24929,Hardware,Visa Card,Desktop,Purchase,19-04-2022
+CUST-24930,Prod_24930,Hardware,Paypal,Desktop,Purchase,10-04-2023
+CUST-24931,Prod_24931,Hardware,Visa Card,Desktop,Purchase,03-12-2022
+CUST-24932,Prod_24932,Accessories,Visa Card,Mobile,Addtocart,11-12-2023
+CUST-24933,Prod_24933,Beauty,Visa Card,Mobile,Addtocart,11-06-2022
+CUST-24934,Prod_24934,Accessories,Momo,Desktop,Purchase,13-04-2020
+CUST-24935,Prod_24935,Electronics,Paypal,Desktop,Addtocart,24-09-2022
+CUST-24936,Prod_24936,Accessories,Visa Card,Desktop,Addtocart,23-10-2021
+CUST-24937,Prod_24937,Accessories,Momo,Desktop,Addtocart,03-01-2020
+CUST-24938,Prod_24938,Clothes,Paypal,Mobile,Addtocart,11-04-2025
+CUST-24939,Prod_24939,Accessories,Momo,Mobile,Purchase,30-01-2022
+CUST-24940,Prod_24940,Electronics,Visa Card,Mobile,Purchase,24-05-2022
+CUST-24941,Prod_24941,Hardware,Momo,Desktop,Purchase,19-07-2022
+CUST-24942,Prod_24942,Hardware,Momo,Desktop,Addtocart,10-01-2020
+CUST-24943,Prod_24943,Beauty,Momo,Mobile,Addtocart,19-10-2021
+CUST-24944,Prod_24944,Books,Visa Card,Desktop,Addtocart,22-11-2021
+CUST-24945,Prod_24945,Books,Paypal,Desktop,Addtocart,26-01-2020
+CUST-24946,Prod_24946,Electronics,Visa Card,Desktop,Addtocart,26-02-2024
+CUST-24947,Prod_24947,Beauty,Momo,Desktop,Purchase,15-07-2024
+CUST-24948,Prod_24948,Hardware,Visa Card,Desktop,Purchase,16-11-2023
+CUST-24949,Prod_24949,Books,Visa Card,Desktop,Purchase,11-07-2021
+CUST-24950,Prod_24950,Clothes,Paypal,Desktop,Addtocart,09-06-2020
+CUST-24951,Prod_24951,Clothes,Paypal,Mobile,Addtocart,14-08-2022
+CUST-24952,Prod_24952,Hardware,Visa Card,Mobile,Addtocart,09-12-2024
+CUST-24953,Prod_24953,Clothes,Momo,Desktop,Addtocart,19-08-2024
+CUST-24954,Prod_24954,Furniture,Visa Card,Mobile,Purchase,22-05-2021
+CUST-24955,Prod_24955,Accessories,Visa Card,Mobile,Purchase,11-01-2020
+CUST-24956,Prod_24956,Beauty,Momo,Desktop,Addtocart,14-06-2022
+CUST-24957,Prod_24957,Electronics,Momo,Desktop,Addtocart,20-07-2021
+CUST-24958,Prod_24958,Electronics,Visa Card,Desktop,Purchase,26-02-2020
+CUST-24959,Prod_24959,Hardware,Momo,Mobile,Addtocart,26-01-2025
+CUST-24960,Prod_24960,Hardware,Paypal,Desktop,Addtocart,11-03-2023
+CUST-24961,Prod_24961,Furniture,Momo,Desktop,Purchase,27-02-2024
+CUST-24962,Prod_24962,Clothes,Paypal,Mobile,Purchase,11-06-2021
+CUST-24963,Prod_24963,Beauty,Paypal,Desktop,Addtocart,13-04-2020
+CUST-24964,Prod_24964,Hardware,Paypal,Mobile,Addtocart,22-08-2022
+CUST-24965,Prod_24965,Hardware,Visa Card,Mobile,Addtocart,22-05-2024
+CUST-24966,Prod_24966,Electronics,Visa Card,Desktop,Purchase,23-03-2023
+CUST-24967,Prod_24967,Electronics,Momo,Mobile,Purchase,02-01-2022
+CUST-24968,Prod_24968,Electronics,Momo,Desktop,Addtocart,26-10-2021
+CUST-24969,Prod_24969,Accessories,Paypal,Mobile,Purchase,29-11-2021
+CUST-24970,Prod_24970,Accessories,Visa Card,Desktop,Addtocart,30-10-2024
+CUST-24971,Prod_24971,Beauty,Visa Card,Mobile,Purchase,09-11-2023
+CUST-24972,Prod_24972,Electronics,Paypal,Mobile,Addtocart,18-08-2024
+CUST-24973,Prod_24973,Electronics,Paypal,Desktop,Addtocart,17-05-2022
+CUST-24974,Prod_24974,Books,Paypal,Mobile,Addtocart,17-12-2020
+CUST-24975,Prod_24975,Electronics,Paypal,Desktop,Addtocart,05-03-2021
+CUST-24976,Prod_24976,Beauty,Paypal,Desktop,Purchase,06-07-2022
