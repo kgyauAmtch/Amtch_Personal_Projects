@@ -32,6 +32,7 @@ def create_kafka_consumer():
                 bootstrap_servers=KAFKA_BROKER,
                 group_id=GROUP_ID,
                 auto_offset_reset='latest', # read only latest messages
+                enable_auto_commit= True,
                 value_deserializer=lambda x: json.loads(x.decode('utf-8'))
             )
             logger.info("Connected to Kafka broker")
@@ -89,6 +90,7 @@ def main():
                 )
                 conn.commit()
                 logger.info(f"Inserted record: {data}")
+                consumer.commit() # Commit the offset after successful processing and database insertion
             
             except Exception as e:
                 logger.error(f"Error processing message: {e}")
