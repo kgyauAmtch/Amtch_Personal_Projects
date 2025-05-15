@@ -1,10 +1,21 @@
-CREATE TABLE IF NOT EXISTS flightprices (
-    Airline  char(40),
-    Source   char(40),
-    Destination varchar(25),
-    BaseFare float(25),
-    Tax float(25),
-    Surcharge flaot(25),
-    Total Fare float(30)
+CREATE TABLE stagingflightprices(
+`Airline` VARCHAR(50),
+`Source` VARCHAR(50),
+`Source Name` VARCHAR(50),
+`Destination` VARCHAR(50),
+`Destination Name` VARCHAR(50),
+`Departure Date & Time` DATETIME,
+`Arrival Date & Time` DATETIME,
+`Duration (hrs)` FLOAT,
+`Stopovers` VARCHAR(50),
+`Aircraft Type` VARCHAR(50),
+`Class` VARCHAR(50),
+`Booking Source` VARCHAR(50),
+`Base Fare (BDT)` FLOAT,
+`Tax & Surcharge (BDT)`FLOAT,
+`Total Fare (BDT)` FLOAT,
+`Seasonality` VARCHAR(50),
+`Days Before Departure` int
 );
+
 
