@@ -1,0 +1,30 @@
+services:
+
+  mysql_db1: 
+   image: mysql:8.0
+   restart: always  # Ensure the service restarts automatically if it fails
+   container_name: mysql_db1
+   environment:
+     MYSQL_HOST: mysql_db1
+     MYSQL_ROOT_PASSWORD: gyaurocks99
+     MYSQL_DATABASE: flightdb
+     MYSQL_USER: flightuser
+     MYSQL_PASSWORD: myuserpass
+   ports: 
+     - 3307:3306
+   volumes:
+       - mysql_data1:/var/lib/mysql
+       - ./include/mysql_setup.sql:/docker-entrypoint-initdb.d/mysql_setup.sql
+   command: >
+     --init-file=/docker-entrypoint-initdb.d/mysql_setup.sql
+   networks:
+      - airflow
+      # - default  # Keep it on the default network too if needed
+
+volumes:
+  mysql_data1:  
+  
+networks:
+  airflow:
+    external: true
+    name: labs_209eb7_airflow
