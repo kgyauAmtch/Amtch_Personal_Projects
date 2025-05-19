@@ -31,6 +31,12 @@ POSTGRES_PASSWORD = os.getenv('POSTGRES_PASSWORD', 'postgres')
 POSTGRES_DATABASE = os.getenv('POSTGRES_DATABASE', 'postgres')
 POSTGRES_PORT = os.getenv('POSTGRES_PORT', '5432')
 
+# Configure logging
+logging.basicConfig(
+    filename='/usr/local/airflow/plugins/log_file.log',  
+    level=logging.INFO,                   
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 @dag(
     start_date= datetime(2025, 5, 17,20,15,00,00),
